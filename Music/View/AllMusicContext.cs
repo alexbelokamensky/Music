@@ -12,6 +12,8 @@ namespace Music.View
     {
         public DbSet<AllMusic> AllMusic { get; set; } = null!;
         public DbSet<Users> Users { get; set; } = null!;
+        public DbSet<Playlists> Playlists { get; set; } = null!;
+        public DbSet<PlaylistsNumOfSongs> NumOfSongs { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlite("Data Source=Music.db");

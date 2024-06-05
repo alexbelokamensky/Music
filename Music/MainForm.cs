@@ -41,17 +41,19 @@ namespace Music
             pHomeFavorites.Hide();
             pControlPanel.Hide();
             pPlaylists.Show();
+            dgvPlaylists.Hide();
+            dgvPlaylistsSongs.Show();
             label3.Text = "Favorites";
             AllMusicContext allMusicContext = new AllMusicContext();
             using (allMusicContext)
             {
-                var query = allMusicContext.AllMusic.FromSql($"SELECT AllMusic.* FROM AllMusic JOIN Playlist_Music ON AllMusic.id = Playlist_Music.IdMusic JOIN Playlists ON Playlist_Music.IdPlaylist = Playlists.Id JOIN Users ON Playlists.IdUser = Users.Id WHERE Playlists.Denumirea = 'fff' AND Users.Nume = {user}");
+                var query = allMusicContext.AllMusic.FromSql($"SELECT AllMusic.* FROM AllMusic JOIN Playlist_Music ON AllMusic.id = Playlist_Music.IdMusic JOIN Playlists ON Playlist_Music.IdPlaylist = Playlists.Id JOIN Users ON Playlists.IdUser = Users.Id WHERE Playlists.Denumirea = 'Favorites' AND Users.Nume = {user}");
                 var allMusicList = query.ToList();
-                dgvPlaylists.DataSource = allMusicList;
+                dgvPlaylistsSongs.DataSource = allMusicList;
 
             }
-            dgvPlaylists.Columns[0].Visible = false;
-            dgvPlaylists.Columns[6].Visible = false;
+            dgvPlaylistsSongs.Columns[0].Visible = false;
+            dgvPlaylistsSongs.Columns[6].Visible = false;
         }
 
         private void btPlaylists_Click(object sender, EventArgs e)
@@ -61,8 +63,14 @@ namespace Music
             pHomeFavorites.Hide();
             pControlPanel.Hide();
             pPlaylists.Show();
+            dgvPlaylists.Show();
+            dgvPlaylistsSongs.Hide();
             label3.Text = "Playlists";
-            dgvPlaylists.DataSource = "";
+            using (var allMusicContext = new AllMusicContext())
+            {
+                dgvPlaylists.DataSource = allMusicContext.NumOfSongs.FromSql($"SELECT Playlists.Id, Playlists.Denumirea, count(Playlist_Music.IdMusic) AS NumSongs FROM Playlists JOIN Users ON Playlists.IdUser = Users.Id JOIN Playlist_Music ON Playlists.Id = Playlist_Music.IdPlaylist WHERE Users.Nume = {user} GROUP BY Playlists.Denumirea;").ToList();
+            }
+            dgvPlaylists.Columns[0].Visible = false;
         }
 
         private void btHome_Click(object sender, EventArgs e)
@@ -81,6 +89,12 @@ namespace Music
             pPlaylists.Hide();
             pControlPanel.Hide();
             pMusic.Show();
+            dgvMusicAlbum.Hide();
+            dgvMusicArtist.Hide();
+            dgvMusicName.Hide();
+            guna2HtmlLabel1.Hide();
+            guna2HtmlLabel2.Hide();
+            guna2HtmlLabel3.Hide();
         }
 
         private void tbxFind_TextChanged(object sender, EventArgs e)
@@ -88,11 +102,37 @@ namespace Music
             if (tbxFind.Text != "")
             {
                 dgvAllMusic.Hide();
+                dgvMusicAlbum.Show();
+                dgvMusicArtist.Show();
+                dgvMusicName.Show();
+                guna2HtmlLabel1.Show();
+                guna2HtmlLabel2.Show();
+                guna2HtmlLabel3.Show();
+                string find = tbxFind.Text.ToString();
+                using (var allMusicContext = new AllMusicContext())
+                {
+                    dgvMusicName.DataSource = allMusicContext.AllMusic.FromSqlRaw($"SELECT * FROM AllMusic WHERE Denumirea LIKE '%{find}%'").ToList();
+                    dgvMusicArtist.DataSource = allMusicContext.AllMusic.FromSqlRaw($"SELECT * FROM AllMusic WHERE Grupa LIKE '%{find}%'").ToList();
+                    dgvMusicAlbum.DataSource = allMusicContext.AllMusic.FromSqlRaw($"SELECT * FROM AllMusic WHERE Album LIKE '%{find}%'").ToList();
+                }
+                dgvMusicName.Columns[0].Visible = false;
+                dgvMusicName.Columns[6].Visible = false;
+                dgvMusicArtist.Columns[0].Visible = false;
+                dgvMusicArtist.Columns[6].Visible = false;
+                dgvMusicAlbum.Columns[0].Visible = false;
+                dgvMusicAlbum.Columns[6].Visible = false;
             }
             else
             {
                 dgvAllMusic.Show();
+                dgvMusicAlbum.Hide();
+                dgvMusicArtist.Hide();
+                dgvMusicName.Hide();
+                guna2HtmlLabel1.Hide();
+                guna2HtmlLabel2.Hide();
+                guna2HtmlLabel3.Hide();
             }
+
         }
 
         private void MainForm_Load(object sender, EventArgs e)
@@ -116,7 +156,7 @@ namespace Music
                 for (int i = 0; i < 6; i++) randomMusic.Add(allMusic[random.Next(1, allMusic.Count)]);
                 dgvNewSongs.DataSource = randomMusic;
 
-                var musicPlaylist = allMusicContext.AllMusic.FromSql($"SELECT AllMusic.* FROM AllMusic JOIN Playlist_Music ON AllMusic.id = Playlist_Music.IdMusic JOIN Playlists ON Playlist_Music.IdPlaylist = Playlists.Id JOIN Users ON Playlists.IdUser = Users.Id WHERE Playlists.Denumirea = 'fff' AND Users.Nume = {user} LIMIT 5").ToList();
+                var musicPlaylist = allMusicContext.AllMusic.FromSql($"SELECT AllMusic.* FROM AllMusic JOIN Playlist_Music ON AllMusic.id = Playlist_Music.IdMusic JOIN Playlists ON Playlist_Music.IdPlaylist = Playlists.Id JOIN Users ON Playlists.IdUser = Users.Id WHERE Playlists.Denumirea = 'Favorites' AND Users.Nume = {user} LIMIT 5").ToList();
                 dgvHomeFavorites.DataSource = musicPlaylist;
 
                 var users1 = allMusicContext.Users.FromSql($"Select * FROM Users WHERE Nume = {user}");
@@ -149,7 +189,7 @@ namespace Music
             pControlPanel.Show();
             using (var allMusicContext = new AllMusicContext())
             {
-                if(isMusic) dgvControlPanel.DataSource = allMusicContext.AllMusic.FromSql($"SELECT * FROM AllMusic").ToList();
+                if (isMusic) dgvControlPanel.DataSource = allMusicContext.AllMusic.FromSql($"SELECT * FROM AllMusic").ToList();
                 else dgvControlPanel.DataSource = allMusicContext.Users.FromSql($"SELECT * FROM Users").ToList();
             }
             dgvControlPanel.ClearSelection();
@@ -250,7 +290,7 @@ namespace Music
             if (dgvControlPanel.SelectedRows.Count > 0)
             {
                 var row = dgvControlPanel.SelectedRows[0];
-                int id = (int)row.Cells["Id"].Value; 
+                int id = (int)row.Cells["Id"].Value;
                 using (var allMusicContext = new AllMusicContext())
                 {
                     if (isMusic)
@@ -339,6 +379,23 @@ namespace Music
                 }
                 dgvControlPanel.ClearSelection();
             }
+        }
+
+        private void dgvPlaylists_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+            var row = dgvPlaylists.SelectedRows[0];
+            string denumirea = (string)row.Cells["Denumirea"].Value;
+            label3.Text = "Playlists";
+            dgvPlaylistsSongs.DataSource = "";
+            dgvPlaylists.Hide();
+            dgvPlaylistsSongs.Show();
+            label3.Text = denumirea;
+            using (AllMusicContext allMusicContext = new AllMusicContext())
+            {
+                dgvPlaylistsSongs.DataSource = allMusicContext.AllMusic.FromSql($"SELECT AllMusic.* FROM AllMusic JOIN Playlist_Music ON AllMusic.id = Playlist_Music.IdMusic JOIN Playlists ON Playlist_Music.IdPlaylist = Playlists.Id JOIN Users ON Playlists.IdUser = Users.Id WHERE Playlists.Denumirea = {denumirea} AND Users.Nume = {user}").ToList();
+            }
+            dgvPlaylistsSongs.Columns[0].Visible = false;
+            dgvPlaylistsSongs.Columns[6].Visible = false;
         }
     }
 }
