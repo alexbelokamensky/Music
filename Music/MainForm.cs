@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using Microsoft.VisualBasic.ApplicationServices;
 using Music.Model;
 using Music.View;
 using System;
@@ -10,29 +11,28 @@ namespace Music
 {
     public partial class MainForm : Form
     {
-        public string user = "user";
+        public string userName = "user";
+        public int userId = 0;
         bool isMusic = true;
         public MainForm()
         {
             InitializeComponent();
             using (Login login = new Login())
             {
-                if (login.ShowDialog() == DialogResult.OK) user = login.User;
+                if (login.ShowDialog() == DialogResult.OK) { userName = login.User; }
                 else Close();
             }
-            btUser.Text = user;
+            btUser.Text = userName;
         }
 
         private void btClose_Click(object sender, EventArgs e)
         {
             this.Close();
         }
-
         private void btMinimize_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
         }
-
         private void btFavorites_Click(object sender, EventArgs e)
         {
             dgvPlaylists.DataSource = "";
@@ -47,7 +47,7 @@ namespace Music
             AllMusicContext allMusicContext = new AllMusicContext();
             using (allMusicContext)
             {
-                var query = allMusicContext.AllMusic.FromSql($"SELECT AllMusic.* FROM AllMusic JOIN Playlist_Music ON AllMusic.id = Playlist_Music.IdMusic JOIN Playlists ON Playlist_Music.IdPlaylist = Playlists.Id JOIN Users ON Playlists.IdUser = Users.Id WHERE Playlists.Denumirea = 'Favorites' AND Users.Nume = {user}");
+                var query = allMusicContext.AllMusic.FromSql($"SELECT AllMusic.* FROM AllMusic JOIN Playlist_Music ON AllMusic.id = Playlist_Music.IdMusic JOIN Playlists ON Playlist_Music.IdPlaylist = Playlists.Id JOIN Users ON Playlists.IdUser = Users.Id WHERE Playlists.Denumirea = 'Favorites' AND Users.Nume = {userName}");
                 var allMusicList = query.ToList();
                 dgvPlaylistsSongs.DataSource = allMusicList;
 
@@ -55,7 +55,6 @@ namespace Music
             dgvPlaylistsSongs.Columns[0].Visible = false;
             dgvPlaylistsSongs.Columns[6].Visible = false;
         }
-
         private void btPlaylists_Click(object sender, EventArgs e)
         {
             pMusic.Hide();
@@ -68,11 +67,11 @@ namespace Music
             label3.Text = "Playlists";
             using (var allMusicContext = new AllMusicContext())
             {
-                dgvPlaylists.DataSource = allMusicContext.NumOfSongs.FromSql($"SELECT Playlists.Id, Playlists.Denumirea, count(Playlist_Music.IdMusic) AS NumSongs FROM Playlists JOIN Users ON Playlists.IdUser = Users.Id JOIN Playlist_Music ON Playlists.Id = Playlist_Music.IdPlaylist WHERE Users.Nume = {user} GROUP BY Playlists.Denumirea;").ToList();
+                dgvPlaylists.DataSource = allMusicContext.NumOfSongs.FromSql($"SELECT Playlists.Id, Playlists.Denumirea, COALESCE(COUNT(Playlist_Music.IdMusic), 0) AS NumSongs FROM Playlists JOIN Users ON Playlists.IdUser = Users.Id LEFT JOIN Playlist_Music ON Playlists.Id = Playlist_Music.IdPlaylist WHERE Users.Id = {userId} GROUP BY Playlists.Id, Playlists.Denumirea;").ToList();
+
             }
             dgvPlaylists.Columns[0].Visible = false;
         }
-
         private void btHome_Click(object sender, EventArgs e)
         {
             pMusic.Hide();
@@ -81,7 +80,6 @@ namespace Music
             pControlPanel.Hide();
             pPlaylists.Hide();
         }
-
         private void btMusic_Click(object sender, EventArgs e)
         {
             pNewSongs.Hide();
@@ -95,8 +93,14 @@ namespace Music
             guna2HtmlLabel1.Hide();
             guna2HtmlLabel2.Hide();
             guna2HtmlLabel3.Hide();
+            using (AllMusicContext allMusicContext = new AllMusicContext())
+            {
+                List<Playlists> playlists = allMusicContext.Playlists.FromSql($"Select * FROM Playlists where Iduser = {userId}").ToList();
+                guna2ComboBox1.DataSource = playlists;
+                guna2ComboBox1.DisplayMember = "Denumirea";
+                guna2ComboBox1.ValueMember = "Id";
+            }
         }
-
         private void tbxFind_TextChanged(object sender, EventArgs e)
         {
             if (tbxFind.Text != "")
@@ -134,12 +138,10 @@ namespace Music
             }
 
         }
-
         private void MainForm_Load(object sender, EventArgs e)
         {
             LoadInformation();
         }
-
         private void LoadInformation()
         {
             pPlaylists.Hide();
@@ -149,6 +151,8 @@ namespace Music
             Random random = new Random();
             using (var allMusicContext = new AllMusicContext())
             {
+                Users user = allMusicContext.Users.FirstOrDefault(u => u.Nume == userName);
+                userId = user.Id;
                 var allMusic = allMusicContext.AllMusic.FromSql($"SELECT * FROM AllMusic ORDER BY Denumirea ASC").ToList();
                 dgvAllMusic.DataSource = allMusic;
 
@@ -156,10 +160,10 @@ namespace Music
                 for (int i = 0; i < 6; i++) randomMusic.Add(allMusic[random.Next(1, allMusic.Count)]);
                 dgvNewSongs.DataSource = randomMusic;
 
-                var musicPlaylist = allMusicContext.AllMusic.FromSql($"SELECT AllMusic.* FROM AllMusic JOIN Playlist_Music ON AllMusic.id = Playlist_Music.IdMusic JOIN Playlists ON Playlist_Music.IdPlaylist = Playlists.Id JOIN Users ON Playlists.IdUser = Users.Id WHERE Playlists.Denumirea = 'Favorites' AND Users.Nume = {user} LIMIT 5").ToList();
+                var musicPlaylist = allMusicContext.AllMusic.FromSql($"SELECT AllMusic.* FROM AllMusic JOIN Playlist_Music ON AllMusic.id = Playlist_Music.IdMusic JOIN Playlists ON Playlist_Music.IdPlaylist = Playlists.Id JOIN Users ON Playlists.IdUser = Users.Id WHERE Playlists.Denumirea = 'Favorites' AND Users.Nume = {userName} LIMIT 5").ToList();
                 dgvHomeFavorites.DataSource = musicPlaylist;
 
-                var users1 = allMusicContext.Users.FromSql($"Select * FROM Users WHERE Nume = {user}");
+                var users1 = allMusicContext.Users.FromSql($"Select * FROM Users WHERE Nume = {userName}");
                 Users users = users1.First();
                 if (users.Rol == "admin") btControlPanel.Visible = true;
             }
@@ -170,22 +174,29 @@ namespace Music
             dgvHomeFavorites.Columns[0].Visible = false;
             dgvHomeFavorites.Columns[6].Visible = false;
         }
-
         private void btUser_Click(object sender, EventArgs e)
         {
             using (Login login = new Login())
             {
                 if (login.ShowDialog() == DialogResult.OK)
                 {
-                    user = login.User;
+                    userName = login.User;
+                    pMusic.Hide();
+                    pNewSongs.Show();
+                    pHomeFavorites.Show();
+                    pControlPanel.Hide();
+                    pPlaylists.Hide();
                     LoadInformation();
                 }
             }
-            btUser.Text = user;
+            btUser.Text = userName;
         }
-
         private void btControlPanel_Click(object sender, EventArgs e)
         {
+            pHomeFavorites.Hide();
+            pNewSongs.Hide();
+            pPlaylists.Hide();
+            pMusic.Hide();
             pControlPanel.Show();
             using (var allMusicContext = new AllMusicContext())
             {
@@ -200,7 +211,6 @@ namespace Music
             tbx5.Text = "";
             tbx6.Text = "";
         }
-
         private void btControlsMusic_Click(object sender, EventArgs e)
         {
             isMusic = true;
@@ -223,7 +233,6 @@ namespace Music
             tbx5.Text = "";
             tbx6.Text = "";
         }
-
         private void btControlsUsers_Click(object sender, EventArgs e)
         {
             isMusic = false;
@@ -243,7 +252,6 @@ namespace Music
             tbx2.Text = "";
             tbx3.Text = "";
         }
-
         private void btAdd_Click(object sender, EventArgs e)
         {
             using (var allMusicContext = new AllMusicContext())
@@ -317,7 +325,6 @@ namespace Music
                 }
             }
         }
-
         private void dgvControlPanel_SelectionChanged(object sender, EventArgs e)
         {
             if (dgvControlPanel.SelectedRows.Count > 0)
@@ -343,7 +350,6 @@ namespace Music
                 tbx6.Text = "";
             }
         }
-
         private void btModify_Click(object sender, EventArgs e)
         {
             var row = dgvControlPanel.SelectedRows[0];
@@ -380,7 +386,6 @@ namespace Music
                 dgvControlPanel.ClearSelection();
             }
         }
-
         private void dgvPlaylists_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
             var row = dgvPlaylists.SelectedRows[0];
@@ -392,10 +397,118 @@ namespace Music
             label3.Text = denumirea;
             using (AllMusicContext allMusicContext = new AllMusicContext())
             {
-                dgvPlaylistsSongs.DataSource = allMusicContext.AllMusic.FromSql($"SELECT AllMusic.* FROM AllMusic JOIN Playlist_Music ON AllMusic.id = Playlist_Music.IdMusic JOIN Playlists ON Playlist_Music.IdPlaylist = Playlists.Id JOIN Users ON Playlists.IdUser = Users.Id WHERE Playlists.Denumirea = {denumirea} AND Users.Nume = {user}").ToList();
+                dgvPlaylistsSongs.DataSource = allMusicContext.AllMusic.FromSql($"SELECT AllMusic.* FROM AllMusic JOIN Playlist_Music ON AllMusic.id = Playlist_Music.IdMusic JOIN Playlists ON Playlist_Music.IdPlaylist = Playlists.Id JOIN Users ON Playlists.IdUser = Users.Id WHERE Playlists.Denumirea = {denumirea} AND Users.Nume = {userName}").ToList();
             }
             dgvPlaylistsSongs.Columns[0].Visible = false;
             dgvPlaylistsSongs.Columns[6].Visible = false;
+        }
+        private void btAddPlaylist_Click(object sender, EventArgs e)
+        {
+            using (PlaylistName playlistName = new PlaylistName())
+            {
+                if (playlistName.ShowDialog() == DialogResult.OK)
+                {
+                    using (var allMusicContext = new AllMusicContext())
+                    {
+                        Users user = allMusicContext.Users.FirstOrDefault(u => u.Nume == userName);
+                        Playlists lastplaylist = allMusicContext.Playlists.OrderBy(p => p.Id).Last();
+                        Playlists playlist = new Playlists()
+                        {
+                            Id = lastplaylist.Id + 1,
+                            Denumirea = playlistName.playlistName,
+                            IdUser = user.Id
+                        };
+                        allMusicContext.Playlists.Add(playlist);
+                        allMusicContext.SaveChanges();
+                        dgvPlaylists.DataSource = "";
+                        dgvPlaylists.DataSource = allMusicContext.NumOfSongs.FromSql($"SELECT Playlists.Id, Playlists.Denumirea, COALESCE(COUNT(Playlist_Music.IdMusic), 0) AS NumSongs FROM Playlists JOIN Users ON Playlists.IdUser = Users.Id LEFT JOIN Playlist_Music ON Playlists.Id = Playlist_Music.IdPlaylist WHERE Users.Id = {userId} GROUP BY Playlists.Id, Playlists.Denumirea;").ToList();
+                        dgvPlaylists.Columns[0].Visible = false;
+                        dgvPlaylists.Refresh();
+                    }
+                }
+            }
+        }
+        private void guna2Button2_Click(object sender, EventArgs e)
+        {
+            if (dgvPlaylists.SelectedRows.Count > 0)
+            {
+                var row = dgvPlaylists.SelectedRows[0];
+                int id = (int)row.Cells["Id"].Value;
+                using (var allMusicContext = new AllMusicContext())
+                {
+                    Playlists playlists = allMusicContext.Playlists.FirstOrDefault(p => p.Id == id);
+                    if (playlists != null)
+                    {
+                        allMusicContext.Playlists.Remove(playlists);
+                        allMusicContext.SaveChanges();
+                    }
+                    dgvPlaylists.DataSource = allMusicContext.NumOfSongs.FromSql($"SELECT Playlists.Id, Playlists.Denumirea, COALESCE(COUNT(Playlist_Music.IdMusic), 0) AS NumSongs FROM Playlists JOIN Users ON Playlists.IdUser = Users.Id LEFT JOIN Playlist_Music ON Playlists.Id = Playlist_Music.IdPlaylist WHERE Users.Id = {userId} GROUP BY Playlists.Id, Playlists.Denumirea;").ToList();
+                    dgvPlaylists.ClearSelection();
+                }
+            }
+        }
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            if (dgvPlaylists.SelectedRows.Count > 0)
+            {
+                using (PlaylistName playlistName = new PlaylistName())
+                {
+                    if (playlistName.ShowDialog() == DialogResult.OK)
+                    {
+                        var row = dgvPlaylists.SelectedRows[0];
+                        int id = (int)row.Cells["Id"].Value;
+                        using (var allMusicContext = new AllMusicContext())
+                        {
+                            Playlists playlists = allMusicContext.Playlists.FirstOrDefault(p => p.Id == id);
+                            if (playlists != null)
+                            {
+                                playlists.Denumirea = playlistName.playlistName;
+                                allMusicContext.SaveChanges();
+                            }
+                            dgvPlaylists.DataSource = allMusicContext.NumOfSongs.FromSql($"SELECT Playlists.Id, Playlists.Denumirea, COALESCE(COUNT(Playlist_Music.IdMusic), 0) AS NumSongs FROM Playlists JOIN Users ON Playlists.IdUser = Users.Id LEFT JOIN Playlist_Music ON Playlists.Id = Playlist_Music.IdPlaylist WHERE Users.Id = {userId} GROUP BY Playlists.Id, Playlists.Denumirea;").ToList();
+                            dgvControlPanel.ClearSelection();
+                        }
+                    }
+                }
+            }
+        }
+        private void btAddToPlaylist_Click(object sender, EventArgs e)
+        {
+            using (AllMusicContext allMusicContext = new AllMusicContext())
+            {
+                Playlist_Music playlist_Music = new Playlist_Music()
+                {
+                    Id = allMusicContext.playlist_Music.OrderBy(p => p.Id).Last().Id + 1,
+                    IdPlaylist = Convert.ToInt32(guna2ComboBox1.SelectedValue),
+                    IdMusic = Convert.ToInt32(dgvAllMusic.SelectedRows[0].Cells["Id"].Value)
+                };
+                allMusicContext.playlist_Music.Add(playlist_Music);
+                allMusicContext.SaveChanges();
+            }
+        }
+        private void btDeleteFromPlaylist_Click(object sender, EventArgs e)
+        {
+            if (dgvPlaylistsSongs.SelectedRows.Count > 0)
+            {
+                var row = dgvPlaylistsSongs.SelectedRows[0];
+                int id = (int)row.Cells["Id"].Value;
+                Debug.WriteLine((int)row.Cells["Id"].Value);
+                row = dgvPlaylists.SelectedRows[0];
+                Debug.WriteLine((string)row.Cells["Denumirea"].Value);
+                string denumirea = (string)row.Cells["Denumirea"].Value;
+                label3.Text = denumirea;
+                using (var allMusicContext = new AllMusicContext())
+                {
+                    Playlist_Music music = allMusicContext.playlist_Music.FirstOrDefault(p => p.Id == id);
+                    if (music != null)
+                    {
+                        allMusicContext.playlist_Music.Remove(music);
+                        allMusicContext.SaveChanges();
+                    }
+                    dgvPlaylistsSongs.DataSource = allMusicContext.AllMusic.FromSql($"SELECT AllMusic.* FROM AllMusic JOIN Playlist_Music ON AllMusic.id = Playlist_Music.IdMusic JOIN Playlists ON Playlist_Music.IdPlaylist = Playlists.Id JOIN Users ON Playlists.IdUser = Users.Id WHERE Playlists.Denumirea = {denumirea} AND Users.Nume = {userName}").ToList();
+                    dgvPlaylistsSongs.ClearSelection();
+                }
+            }
         }
     }
 }

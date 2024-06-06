@@ -108,3 +108,4 @@ C:\Lessons\Practica\Music\Music\bin\Debug\net8.0-windows\runtimes\win-x64\native
 C:\Lessons\Practica\Music\Music\bin\Debug\net8.0-windows\runtimes\win-x86\native\WebView2Loader.dll
 C:\Lessons\Practica\Music\Music\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
 C:\Lessons\Practica\Music\Music\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Runtime.Caching.dll
+C:\Lessons\Practica\Music\Music\obj\Debug\net8.0-windows\Music.PlaylistName.resources
