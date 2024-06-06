@@ -64,6 +64,11 @@ namespace Music
             pPlaylists.Show();
             dgvPlaylists.Show();
             dgvPlaylistsSongs.Hide();
+
+            btAddPlaylist.Show();
+            btModifyPlaylist.Show();
+            btDeletePlaylist.Show();
+            btDeleteFromPlaylist.Hide();
             label3.Text = "Playlists";
             using (var allMusicContext = new AllMusicContext())
             {
@@ -79,6 +84,12 @@ namespace Music
             pHomeFavorites.Show();
             pControlPanel.Hide();
             pPlaylists.Hide();
+
+            using (var allMusicContext = new AllMusicContext())
+            {
+                var musicPlaylist = allMusicContext.AllMusic.FromSql($"SELECT AllMusic.* FROM AllMusic JOIN Playlist_Music ON AllMusic.id = Playlist_Music.IdMusic JOIN Playlists ON Playlist_Music.IdPlaylist = Playlists.Id JOIN Users ON Playlists.IdUser = Users.Id WHERE Playlists.Denumirea = 'Favorites' AND Users.Nume = {userName}").ToList();
+                dgvHomeFavorites.DataSource = musicPlaylist;
+            }
         }
         private void btMusic_Click(object sender, EventArgs e)
         {
@@ -388,6 +399,10 @@ namespace Music
         }
         private void dgvPlaylists_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
+            btAddPlaylist.Hide();
+            btModifyPlaylist.Hide();
+            btDeletePlaylist.Hide();
+            btDeleteFromPlaylist.Show();
             var row = dgvPlaylists.SelectedRows[0];
             string denumirea = (string)row.Cells["Denumirea"].Value;
             label3.Text = "Playlists";
@@ -397,10 +412,9 @@ namespace Music
             label3.Text = denumirea;
             using (AllMusicContext allMusicContext = new AllMusicContext())
             {
-                dgvPlaylistsSongs.DataSource = allMusicContext.AllMusic.FromSql($"SELECT AllMusic.* FROM AllMusic JOIN Playlist_Music ON AllMusic.id = Playlist_Music.IdMusic JOIN Playlists ON Playlist_Music.IdPlaylist = Playlists.Id JOIN Users ON Playlists.IdUser = Users.Id WHERE Playlists.Denumirea = {denumirea} AND Users.Nume = {userName}").ToList();
+                dgvPlaylistsSongs.DataSource = allMusicContext.musicInPlaylists.FromSql($"SELECT Playlist_Music.Id, AllMusic.Denumirea, AllMusic.Grupa, AllMusic.Album, AllMusic.Gen, AllMusic.An FROM Playlist_Music JOIN Playlists ON Playlist_Music.IdPlaylist = Playlists.Id JOIN AllMusic ON Playlist_Music.IdMusic = AllMusic.ID JOIN Users ON Playlists.IdUser = Users.Id WHERE Playlists.Denumirea = {denumirea} AND Users.Id = {userId};").ToList();
             }
             dgvPlaylistsSongs.Columns[0].Visible = false;
-            dgvPlaylistsSongs.Columns[6].Visible = false;
         }
         private void btAddPlaylist_Click(object sender, EventArgs e)
         {
@@ -492,11 +506,8 @@ namespace Music
             {
                 var row = dgvPlaylistsSongs.SelectedRows[0];
                 int id = (int)row.Cells["Id"].Value;
-                Debug.WriteLine((int)row.Cells["Id"].Value);
                 row = dgvPlaylists.SelectedRows[0];
-                Debug.WriteLine((string)row.Cells["Denumirea"].Value);
                 string denumirea = (string)row.Cells["Denumirea"].Value;
-                label3.Text = denumirea;
                 using (var allMusicContext = new AllMusicContext())
                 {
                     Playlist_Music music = allMusicContext.playlist_Music.FirstOrDefault(p => p.Id == id);
@@ -505,7 +516,7 @@ namespace Music
                         allMusicContext.playlist_Music.Remove(music);
                         allMusicContext.SaveChanges();
                     }
-                    dgvPlaylistsSongs.DataSource = allMusicContext.AllMusic.FromSql($"SELECT AllMusic.* FROM AllMusic JOIN Playlist_Music ON AllMusic.id = Playlist_Music.IdMusic JOIN Playlists ON Playlist_Music.IdPlaylist = Playlists.Id JOIN Users ON Playlists.IdUser = Users.Id WHERE Playlists.Denumirea = {denumirea} AND Users.Nume = {userName}").ToList();
+                    dgvPlaylistsSongs.DataSource = allMusicContext.musicInPlaylists.FromSql($"SELECT Playlist_Music.Id, AllMusic.Denumirea, AllMusic.Grupa, AllMusic.Album, AllMusic.Gen, AllMusic.An FROM Playlist_Music JOIN Playlists ON Playlist_Music.IdPlaylist = Playlists.Id JOIN AllMusic ON Playlist_Music.IdMusic = AllMusic.ID JOIN Users ON Playlists.IdUser = Users.Id WHERE Playlists.Denumirea = {denumirea} AND Users.Id = {userId};").ToList();
                     dgvPlaylistsSongs.ClearSelection();
                 }
             }

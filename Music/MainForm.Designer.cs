@@ -29,106 +29,106 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges73 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges11 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges12 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges13 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges14 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges21 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges22 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges15 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges16 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges17 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges18 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle4 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle5 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle6 = new DataGridViewCellStyle();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges19 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges20 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            DataGridViewCellStyle dataGridViewCellStyle7 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle8 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle9 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle10 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle11 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle12 = new DataGridViewCellStyle();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges25 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges26 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            DataGridViewCellStyle dataGridViewCellStyle13 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle14 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle15 = new DataGridViewCellStyle();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges23 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges24 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges37 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges38 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges27 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges28 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges29 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges30 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges31 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges32 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges33 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges34 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            DataGridViewCellStyle dataGridViewCellStyle19 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle20 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle21 = new DataGridViewCellStyle();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges35 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges36 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            DataGridViewCellStyle dataGridViewCellStyle16 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle17 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle18 = new DataGridViewCellStyle();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges39 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges40 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges41 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges42 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            DataGridViewCellStyle dataGridViewCellStyle22 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle23 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle24 = new DataGridViewCellStyle();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges45 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges46 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges43 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges44 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges71 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges72 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges47 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges48 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges49 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges50 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges51 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges52 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges53 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges54 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges55 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges56 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges57 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges58 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges59 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges60 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges61 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges62 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges63 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges64 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges65 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges66 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges67 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges68 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            DataGridViewCellStyle dataGridViewCellStyle25 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle26 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle27 = new DataGridViewCellStyle();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges69 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges70 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges74 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges75 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges76 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges77 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges78 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges79 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges80 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges81 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges82 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges83 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges84 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges85 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges86 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges93 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges94 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges87 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges88 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges89 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges90 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            DataGridViewCellStyle dataGridViewCellStyle28 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle29 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle30 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle31 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle32 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle33 = new DataGridViewCellStyle();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges91 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges92 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            DataGridViewCellStyle dataGridViewCellStyle34 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle35 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle36 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle37 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle38 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle39 = new DataGridViewCellStyle();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges97 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges98 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            DataGridViewCellStyle dataGridViewCellStyle40 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle41 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle42 = new DataGridViewCellStyle();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges95 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges96 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges109 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges110 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges99 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges100 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges101 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges102 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges103 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges104 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges105 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges106 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            DataGridViewCellStyle dataGridViewCellStyle43 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle44 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle45 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle46 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle47 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle48 = new DataGridViewCellStyle();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges107 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges108 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges111 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges112 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges113 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges114 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            DataGridViewCellStyle dataGridViewCellStyle49 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle50 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle51 = new DataGridViewCellStyle();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges115 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges116 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges117 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges118 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges143 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges144 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges119 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges120 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges121 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges122 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges123 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges124 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges125 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges126 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges127 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges128 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges129 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges130 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges131 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges132 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges133 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges134 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges135 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges136 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges137 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges138 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges139 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges140 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            DataGridViewCellStyle dataGridViewCellStyle52 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle53 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle54 = new DataGridViewCellStyle();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges141 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges142 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             panel1 = new Panel();
             btControlPanel = new Guna.UI2.WinForms.Guna2Button();
             btPlaylists = new Guna.UI2.WinForms.Guna2Button();
@@ -153,14 +153,14 @@
             label1 = new Label();
             guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             pPlaylists = new Guna.UI2.WinForms.Guna2Panel();
-            btDeleteFromPlaylist = new Guna.UI2.WinForms.Guna2Button();
             btAddPlaylist = new Guna.UI2.WinForms.Guna2Button();
             btDeletePlaylist = new Guna.UI2.WinForms.Guna2Button();
-            tbModifyPlaylist = new Guna.UI2.WinForms.Guna2Button();
-            dgvPlaylists = new Guna.UI2.WinForms.Guna2DataGridView();
+            btModifyPlaylist = new Guna.UI2.WinForms.Guna2Button();
             label3 = new Label();
             guna2PictureBox3 = new Guna.UI2.WinForms.Guna2PictureBox();
             dgvPlaylistsSongs = new Guna.UI2.WinForms.Guna2DataGridView();
+            dgvPlaylists = new Guna.UI2.WinForms.Guna2DataGridView();
+            btDeleteFromPlaylist = new Guna.UI2.WinForms.Guna2Button();
             guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
             pNewSongs = new Guna.UI2.WinForms.Guna2Panel();
             dgvNewSongs = new Guna.UI2.WinForms.Guna2DataGridView();
@@ -194,9 +194,9 @@
             ((System.ComponentModel.ISupportInitialize)dgvHomeFavorites).BeginInit();
             ((System.ComponentModel.ISupportInitialize)guna2PictureBox1).BeginInit();
             pPlaylists.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)dgvPlaylists).BeginInit();
             ((System.ComponentModel.ISupportInitialize)guna2PictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dgvPlaylistsSongs).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dgvPlaylists).BeginInit();
             ((System.ComponentModel.ISupportInitialize)guna2PictureBox2).BeginInit();
             pNewSongs.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgvNewSongs).BeginInit();
@@ -224,7 +224,7 @@
             // 
             // btControlPanel
             // 
-            btControlPanel.CustomizableEdges = customizableEdges1;
+            btControlPanel.CustomizableEdges = customizableEdges73;
             btControlPanel.DisabledState.BorderColor = Color.DarkGray;
             btControlPanel.DisabledState.CustomBorderColor = Color.DarkGray;
             btControlPanel.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -237,7 +237,7 @@
             btControlPanel.ImageSize = new Size(60, 60);
             btControlPanel.Location = new Point(4, 618);
             btControlPanel.Name = "btControlPanel";
-            btControlPanel.ShadowDecoration.CustomizableEdges = customizableEdges2;
+            btControlPanel.ShadowDecoration.CustomizableEdges = customizableEdges74;
             btControlPanel.Size = new Size(246, 53);
             btControlPanel.TabIndex = 21;
             btControlPanel.Text = "Controls";
@@ -249,7 +249,7 @@
             // 
             btPlaylists.BorderRadius = 20;
             btPlaylists.Cursor = Cursors.Hand;
-            btPlaylists.CustomizableEdges = customizableEdges3;
+            btPlaylists.CustomizableEdges = customizableEdges75;
             btPlaylists.DisabledState.BorderColor = Color.DarkGray;
             btPlaylists.DisabledState.CustomBorderColor = Color.DarkGray;
             btPlaylists.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -264,7 +264,7 @@
             btPlaylists.ImageSize = new Size(50, 50);
             btPlaylists.Location = new Point(12, 247);
             btPlaylists.Name = "btPlaylists";
-            btPlaylists.ShadowDecoration.CustomizableEdges = customizableEdges4;
+            btPlaylists.ShadowDecoration.CustomizableEdges = customizableEdges76;
             btPlaylists.Size = new Size(229, 53);
             btPlaylists.TabIndex = 17;
             btPlaylists.Text = "Playlist";
@@ -273,12 +273,12 @@
             // 
             // pbLogo
             // 
-            pbLogo.CustomizableEdges = customizableEdges5;
+            pbLogo.CustomizableEdges = customizableEdges77;
             pbLogo.Image = (Image)resources.GetObject("pbLogo.Image");
             pbLogo.ImageRotate = 0F;
             pbLogo.Location = new Point(18, 15);
             pbLogo.Name = "pbLogo";
-            pbLogo.ShadowDecoration.CustomizableEdges = customizableEdges6;
+            pbLogo.ShadowDecoration.CustomizableEdges = customizableEdges78;
             pbLogo.Size = new Size(219, 74);
             pbLogo.SizeMode = PictureBoxSizeMode.Zoom;
             pbLogo.TabIndex = 6;
@@ -286,7 +286,7 @@
             // 
             // btMusic
             // 
-            btMusic.CustomizableEdges = customizableEdges7;
+            btMusic.CustomizableEdges = customizableEdges79;
             btMusic.DisabledState.BorderColor = Color.DarkGray;
             btMusic.DisabledState.CustomBorderColor = Color.DarkGray;
             btMusic.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -299,7 +299,7 @@
             btMusic.ImageSize = new Size(50, 50);
             btMusic.Location = new Point(12, 128);
             btMusic.Name = "btMusic";
-            btMusic.ShadowDecoration.CustomizableEdges = customizableEdges8;
+            btMusic.ShadowDecoration.CustomizableEdges = customizableEdges80;
             btMusic.Size = new Size(229, 53);
             btMusic.TabIndex = 8;
             btMusic.Text = "Music";
@@ -309,7 +309,7 @@
             // btHome
             // 
             btHome.BorderRadius = 20;
-            btHome.CustomizableEdges = customizableEdges9;
+            btHome.CustomizableEdges = customizableEdges81;
             btHome.DisabledState.BorderColor = Color.DarkGray;
             btHome.DisabledState.CustomBorderColor = Color.DarkGray;
             btHome.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -324,7 +324,7 @@
             btHome.ImageSize = new Size(50, 50);
             btHome.Location = new Point(12, 184);
             btHome.Name = "btHome";
-            btHome.ShadowDecoration.CustomizableEdges = customizableEdges10;
+            btHome.ShadowDecoration.CustomizableEdges = customizableEdges82;
             btHome.Size = new Size(229, 53);
             btHome.TabIndex = 16;
             btHome.Text = "Home";
@@ -332,7 +332,7 @@
             // 
             // btFavorites
             // 
-            btFavorites.CustomizableEdges = customizableEdges11;
+            btFavorites.CustomizableEdges = customizableEdges83;
             btFavorites.DisabledState.BorderColor = Color.DarkGray;
             btFavorites.DisabledState.CustomBorderColor = Color.DarkGray;
             btFavorites.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -345,7 +345,7 @@
             btFavorites.ImageSize = new Size(60, 60);
             btFavorites.Location = new Point(4, 338);
             btFavorites.Name = "btFavorites";
-            btFavorites.ShadowDecoration.CustomizableEdges = customizableEdges12;
+            btFavorites.ShadowDecoration.CustomizableEdges = customizableEdges84;
             btFavorites.Size = new Size(246, 53);
             btFavorites.TabIndex = 19;
             btFavorites.Text = "Favorites";
@@ -354,7 +354,7 @@
             // 
             // btUser
             // 
-            btUser.CustomizableEdges = customizableEdges13;
+            btUser.CustomizableEdges = customizableEdges85;
             btUser.DisabledState.BorderColor = Color.DarkGray;
             btUser.DisabledState.CustomBorderColor = Color.DarkGray;
             btUser.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -367,7 +367,7 @@
             btUser.ImageSize = new Size(60, 60);
             btUser.Location = new Point(12, 679);
             btUser.Name = "btUser";
-            btUser.ShadowDecoration.CustomizableEdges = customizableEdges14;
+            btUser.ShadowDecoration.CustomizableEdges = customizableEdges86;
             btUser.Size = new Size(229, 62);
             btUser.TabIndex = 20;
             btUser.Text = "User";
@@ -387,11 +387,11 @@
             pMusic.Controls.Add(tbxFind);
             pMusic.Controls.Add(dgvMusicName);
             pMusic.Controls.Add(dgvAllMusic);
-            pMusic.CustomizableEdges = customizableEdges21;
+            pMusic.CustomizableEdges = customizableEdges93;
             pMusic.FillColor = Color.FromArgb(15, 15, 15);
             pMusic.Location = new Point(262, 40);
             pMusic.Name = "pMusic";
-            pMusic.ShadowDecoration.CustomizableEdges = customizableEdges22;
+            pMusic.ShadowDecoration.CustomizableEdges = customizableEdges94;
             pMusic.Size = new Size(1067, 696);
             pMusic.TabIndex = 10;
             pMusic.Visible = false;
@@ -399,7 +399,7 @@
             // guna2ComboBox1
             // 
             guna2ComboBox1.BackColor = Color.Transparent;
-            guna2ComboBox1.CustomizableEdges = customizableEdges15;
+            guna2ComboBox1.CustomizableEdges = customizableEdges87;
             guna2ComboBox1.DrawMode = DrawMode.OwnerDrawFixed;
             guna2ComboBox1.DropDownStyle = ComboBoxStyle.DropDownList;
             guna2ComboBox1.FocusedColor = Color.FromArgb(94, 148, 255);
@@ -409,13 +409,13 @@
             guna2ComboBox1.ItemHeight = 30;
             guna2ComboBox1.Location = new Point(553, 28);
             guna2ComboBox1.Name = "guna2ComboBox1";
-            guna2ComboBox1.ShadowDecoration.CustomizableEdges = customizableEdges16;
+            guna2ComboBox1.ShadowDecoration.CustomizableEdges = customizableEdges88;
             guna2ComboBox1.Size = new Size(261, 36);
             guna2ComboBox1.TabIndex = 16;
             // 
             // btAddToPlaylist
             // 
-            btAddToPlaylist.CustomizableEdges = customizableEdges17;
+            btAddToPlaylist.CustomizableEdges = customizableEdges89;
             btAddToPlaylist.DisabledState.BorderColor = Color.DarkGray;
             btAddToPlaylist.DisabledState.CustomBorderColor = Color.DarkGray;
             btAddToPlaylist.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -424,7 +424,7 @@
             btAddToPlaylist.ForeColor = Color.White;
             btAddToPlaylist.Location = new Point(820, 28);
             btAddToPlaylist.Name = "btAddToPlaylist";
-            btAddToPlaylist.ShadowDecoration.CustomizableEdges = customizableEdges18;
+            btAddToPlaylist.ShadowDecoration.CustomizableEdges = customizableEdges90;
             btAddToPlaylist.Size = new Size(225, 36);
             btAddToPlaylist.TabIndex = 15;
             btAddToPlaylist.Text = "Add To Playlist";
@@ -469,29 +469,29 @@
             dgvMusicAlbum.AllowUserToDeleteRows = false;
             dgvMusicAlbum.AllowUserToResizeColumns = false;
             dgvMusicAlbum.AllowUserToResizeRows = false;
-            dataGridViewCellStyle1.BackColor = Color.FromArgb(15, 15, 15);
-            dataGridViewCellStyle1.ForeColor = Color.White;
-            dgvMusicAlbum.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle28.BackColor = Color.FromArgb(15, 15, 15);
+            dataGridViewCellStyle28.ForeColor = Color.White;
+            dgvMusicAlbum.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle28;
             dgvMusicAlbum.BackgroundColor = Color.FromArgb(15, 15, 15);
-            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = Color.FromArgb(100, 88, 255);
-            dataGridViewCellStyle2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            dataGridViewCellStyle2.ForeColor = Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = DataGridViewTriState.True;
-            dgvMusicAlbum.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle29.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle29.BackColor = Color.FromArgb(100, 88, 255);
+            dataGridViewCellStyle29.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            dataGridViewCellStyle29.ForeColor = Color.White;
+            dataGridViewCellStyle29.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle29.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle29.WrapMode = DataGridViewTriState.True;
+            dgvMusicAlbum.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle29;
             dgvMusicAlbum.ColumnHeadersHeight = 4;
             dgvMusicAlbum.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
             dgvMusicAlbum.ColumnHeadersVisible = false;
-            dataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = Color.FromArgb(15, 15, 15);
-            dataGridViewCellStyle3.Font = new Font("Segoe UI", 11F);
-            dataGridViewCellStyle3.ForeColor = Color.White;
-            dataGridViewCellStyle3.SelectionBackColor = Color.FromArgb(231, 229, 255);
-            dataGridViewCellStyle3.SelectionForeColor = Color.FromArgb(71, 69, 94);
-            dataGridViewCellStyle3.WrapMode = DataGridViewTriState.False;
-            dgvMusicAlbum.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle30.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle30.BackColor = Color.FromArgb(15, 15, 15);
+            dataGridViewCellStyle30.Font = new Font("Segoe UI", 11F);
+            dataGridViewCellStyle30.ForeColor = Color.White;
+            dataGridViewCellStyle30.SelectionBackColor = Color.FromArgb(231, 229, 255);
+            dataGridViewCellStyle30.SelectionForeColor = Color.FromArgb(71, 69, 94);
+            dataGridViewCellStyle30.WrapMode = DataGridViewTriState.False;
+            dgvMusicAlbum.DefaultCellStyle = dataGridViewCellStyle30;
             dgvMusicAlbum.GridColor = Color.FromArgb(231, 229, 255);
             dgvMusicAlbum.Location = new Point(18, 526);
             dgvMusicAlbum.MultiSelect = false;
@@ -529,29 +529,29 @@
             dgvMusicArtist.AllowUserToDeleteRows = false;
             dgvMusicArtist.AllowUserToResizeColumns = false;
             dgvMusicArtist.AllowUserToResizeRows = false;
-            dataGridViewCellStyle4.BackColor = Color.FromArgb(15, 15, 15);
-            dataGridViewCellStyle4.ForeColor = Color.White;
-            dgvMusicArtist.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle31.BackColor = Color.FromArgb(15, 15, 15);
+            dataGridViewCellStyle31.ForeColor = Color.White;
+            dgvMusicArtist.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle31;
             dgvMusicArtist.BackgroundColor = Color.FromArgb(15, 15, 15);
-            dataGridViewCellStyle5.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = Color.FromArgb(100, 88, 255);
-            dataGridViewCellStyle5.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            dataGridViewCellStyle5.ForeColor = Color.White;
-            dataGridViewCellStyle5.SelectionBackColor = SystemColors.Highlight;
-            dataGridViewCellStyle5.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = DataGridViewTriState.True;
-            dgvMusicArtist.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle32.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle32.BackColor = Color.FromArgb(100, 88, 255);
+            dataGridViewCellStyle32.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            dataGridViewCellStyle32.ForeColor = Color.White;
+            dataGridViewCellStyle32.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle32.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle32.WrapMode = DataGridViewTriState.True;
+            dgvMusicArtist.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle32;
             dgvMusicArtist.ColumnHeadersHeight = 4;
             dgvMusicArtist.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
             dgvMusicArtist.ColumnHeadersVisible = false;
-            dataGridViewCellStyle6.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = Color.FromArgb(15, 15, 15);
-            dataGridViewCellStyle6.Font = new Font("Segoe UI", 11F);
-            dataGridViewCellStyle6.ForeColor = Color.White;
-            dataGridViewCellStyle6.SelectionBackColor = Color.FromArgb(231, 229, 255);
-            dataGridViewCellStyle6.SelectionForeColor = Color.FromArgb(71, 69, 94);
-            dataGridViewCellStyle6.WrapMode = DataGridViewTriState.False;
-            dgvMusicArtist.DefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle33.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle33.BackColor = Color.FromArgb(15, 15, 15);
+            dataGridViewCellStyle33.Font = new Font("Segoe UI", 11F);
+            dataGridViewCellStyle33.ForeColor = Color.White;
+            dataGridViewCellStyle33.SelectionBackColor = Color.FromArgb(231, 229, 255);
+            dataGridViewCellStyle33.SelectionForeColor = Color.FromArgb(71, 69, 94);
+            dataGridViewCellStyle33.WrapMode = DataGridViewTriState.False;
+            dgvMusicArtist.DefaultCellStyle = dataGridViewCellStyle33;
             dgvMusicArtist.GridColor = Color.FromArgb(231, 229, 255);
             dgvMusicArtist.Location = new Point(18, 327);
             dgvMusicArtist.MultiSelect = false;
@@ -588,7 +588,7 @@
             tbxFind.BackColor = Color.FromArgb(15, 15, 15);
             tbxFind.BorderColor = Color.Transparent;
             tbxFind.BorderRadius = 20;
-            tbxFind.CustomizableEdges = customizableEdges19;
+            tbxFind.CustomizableEdges = customizableEdges91;
             tbxFind.DefaultText = "";
             tbxFind.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             tbxFind.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -605,7 +605,7 @@
             tbxFind.PlaceholderForeColor = Color.LightGray;
             tbxFind.PlaceholderText = "Find music";
             tbxFind.SelectedText = "";
-            tbxFind.ShadowDecoration.CustomizableEdges = customizableEdges20;
+            tbxFind.ShadowDecoration.CustomizableEdges = customizableEdges92;
             tbxFind.Size = new Size(437, 60);
             tbxFind.TabIndex = 8;
             tbxFind.TextChanged += tbxFind_TextChanged;
@@ -616,29 +616,29 @@
             dgvMusicName.AllowUserToDeleteRows = false;
             dgvMusicName.AllowUserToResizeColumns = false;
             dgvMusicName.AllowUserToResizeRows = false;
-            dataGridViewCellStyle7.BackColor = Color.FromArgb(15, 15, 15);
-            dataGridViewCellStyle7.ForeColor = Color.White;
-            dgvMusicName.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle34.BackColor = Color.FromArgb(15, 15, 15);
+            dataGridViewCellStyle34.ForeColor = Color.White;
+            dgvMusicName.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle34;
             dgvMusicName.BackgroundColor = Color.FromArgb(15, 15, 15);
-            dataGridViewCellStyle8.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle8.BackColor = Color.FromArgb(100, 88, 255);
-            dataGridViewCellStyle8.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            dataGridViewCellStyle8.ForeColor = Color.White;
-            dataGridViewCellStyle8.SelectionBackColor = SystemColors.Highlight;
-            dataGridViewCellStyle8.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle8.WrapMode = DataGridViewTriState.True;
-            dgvMusicName.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle35.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle35.BackColor = Color.FromArgb(100, 88, 255);
+            dataGridViewCellStyle35.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            dataGridViewCellStyle35.ForeColor = Color.White;
+            dataGridViewCellStyle35.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle35.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle35.WrapMode = DataGridViewTriState.True;
+            dgvMusicName.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle35;
             dgvMusicName.ColumnHeadersHeight = 4;
             dgvMusicName.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
             dgvMusicName.ColumnHeadersVisible = false;
-            dataGridViewCellStyle9.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle9.BackColor = Color.FromArgb(15, 15, 15);
-            dataGridViewCellStyle9.Font = new Font("Segoe UI", 11F);
-            dataGridViewCellStyle9.ForeColor = Color.White;
-            dataGridViewCellStyle9.SelectionBackColor = Color.FromArgb(231, 229, 255);
-            dataGridViewCellStyle9.SelectionForeColor = Color.FromArgb(71, 69, 94);
-            dataGridViewCellStyle9.WrapMode = DataGridViewTriState.False;
-            dgvMusicName.DefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle36.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle36.BackColor = Color.FromArgb(15, 15, 15);
+            dataGridViewCellStyle36.Font = new Font("Segoe UI", 11F);
+            dataGridViewCellStyle36.ForeColor = Color.White;
+            dataGridViewCellStyle36.SelectionBackColor = Color.FromArgb(231, 229, 255);
+            dataGridViewCellStyle36.SelectionForeColor = Color.FromArgb(71, 69, 94);
+            dataGridViewCellStyle36.WrapMode = DataGridViewTriState.False;
+            dgvMusicName.DefaultCellStyle = dataGridViewCellStyle36;
             dgvMusicName.GridColor = Color.FromArgb(231, 229, 255);
             dgvMusicName.Location = new Point(18, 129);
             dgvMusicName.MultiSelect = false;
@@ -677,30 +677,30 @@
             dgvAllMusic.AllowUserToOrderColumns = true;
             dgvAllMusic.AllowUserToResizeColumns = false;
             dgvAllMusic.AllowUserToResizeRows = false;
-            dataGridViewCellStyle10.BackColor = Color.FromArgb(15, 15, 15);
-            dataGridViewCellStyle10.ForeColor = Color.White;
-            dgvAllMusic.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle10;
+            dataGridViewCellStyle37.BackColor = Color.FromArgb(15, 15, 15);
+            dataGridViewCellStyle37.ForeColor = Color.White;
+            dgvAllMusic.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle37;
             dgvAllMusic.BackgroundColor = Color.FromArgb(15, 15, 15);
-            dataGridViewCellStyle11.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle11.BackColor = Color.FromArgb(100, 88, 255);
-            dataGridViewCellStyle11.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            dataGridViewCellStyle11.ForeColor = Color.White;
-            dataGridViewCellStyle11.SelectionBackColor = SystemColors.Highlight;
-            dataGridViewCellStyle11.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle11.WrapMode = DataGridViewTriState.True;
-            dgvAllMusic.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle11;
+            dataGridViewCellStyle38.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle38.BackColor = Color.FromArgb(100, 88, 255);
+            dataGridViewCellStyle38.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            dataGridViewCellStyle38.ForeColor = Color.White;
+            dataGridViewCellStyle38.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle38.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle38.WrapMode = DataGridViewTriState.True;
+            dgvAllMusic.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle38;
             dgvAllMusic.ColumnHeadersHeight = 4;
             dgvAllMusic.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
             dgvAllMusic.ColumnHeadersVisible = false;
-            dataGridViewCellStyle12.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle12.BackColor = Color.FromArgb(15, 15, 15);
-            dataGridViewCellStyle12.Font = new Font("Segoe UI", 11F);
-            dataGridViewCellStyle12.ForeColor = Color.White;
-            dataGridViewCellStyle12.Padding = new Padding(10, 0, 0, 0);
-            dataGridViewCellStyle12.SelectionBackColor = Color.FromArgb(231, 229, 255);
-            dataGridViewCellStyle12.SelectionForeColor = Color.FromArgb(71, 69, 94);
-            dataGridViewCellStyle12.WrapMode = DataGridViewTriState.True;
-            dgvAllMusic.DefaultCellStyle = dataGridViewCellStyle12;
+            dataGridViewCellStyle39.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle39.BackColor = Color.FromArgb(15, 15, 15);
+            dataGridViewCellStyle39.Font = new Font("Segoe UI", 11F);
+            dataGridViewCellStyle39.ForeColor = Color.White;
+            dataGridViewCellStyle39.Padding = new Padding(10, 0, 0, 0);
+            dataGridViewCellStyle39.SelectionBackColor = Color.FromArgb(231, 229, 255);
+            dataGridViewCellStyle39.SelectionForeColor = Color.FromArgb(71, 69, 94);
+            dataGridViewCellStyle39.WrapMode = DataGridViewTriState.True;
+            dgvAllMusic.DefaultCellStyle = dataGridViewCellStyle39;
             dgvAllMusic.GridColor = Color.FromArgb(231, 229, 255);
             dgvAllMusic.Location = new Point(18, 100);
             dgvAllMusic.MultiSelect = false;
@@ -739,11 +739,11 @@
             pHomeFavorites.Controls.Add(dgvHomeFavorites);
             pHomeFavorites.Controls.Add(label1);
             pHomeFavorites.Controls.Add(guna2PictureBox1);
-            pHomeFavorites.CustomizableEdges = customizableEdges25;
+            pHomeFavorites.CustomizableEdges = customizableEdges97;
             pHomeFavorites.FillColor = Color.FromArgb(15, 15, 15);
             pHomeFavorites.Location = new Point(263, 39);
             pHomeFavorites.Name = "pHomeFavorites";
-            pHomeFavorites.ShadowDecoration.CustomizableEdges = customizableEdges26;
+            pHomeFavorites.ShadowDecoration.CustomizableEdges = customizableEdges98;
             pHomeFavorites.Size = new Size(1063, 328);
             pHomeFavorites.TabIndex = 2;
             // 
@@ -753,29 +753,29 @@
             dgvHomeFavorites.AllowUserToDeleteRows = false;
             dgvHomeFavorites.AllowUserToResizeColumns = false;
             dgvHomeFavorites.AllowUserToResizeRows = false;
-            dataGridViewCellStyle13.BackColor = Color.FromArgb(15, 15, 15);
-            dataGridViewCellStyle13.ForeColor = Color.White;
-            dgvHomeFavorites.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle13;
+            dataGridViewCellStyle40.BackColor = Color.FromArgb(15, 15, 15);
+            dataGridViewCellStyle40.ForeColor = Color.White;
+            dgvHomeFavorites.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle40;
             dgvHomeFavorites.BackgroundColor = Color.FromArgb(15, 15, 15);
-            dataGridViewCellStyle14.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle14.BackColor = Color.FromArgb(100, 88, 255);
-            dataGridViewCellStyle14.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            dataGridViewCellStyle14.ForeColor = Color.White;
-            dataGridViewCellStyle14.SelectionBackColor = SystemColors.Highlight;
-            dataGridViewCellStyle14.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle14.WrapMode = DataGridViewTriState.True;
-            dgvHomeFavorites.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle14;
+            dataGridViewCellStyle41.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle41.BackColor = Color.FromArgb(100, 88, 255);
+            dataGridViewCellStyle41.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            dataGridViewCellStyle41.ForeColor = Color.White;
+            dataGridViewCellStyle41.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle41.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle41.WrapMode = DataGridViewTriState.True;
+            dgvHomeFavorites.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle41;
             dgvHomeFavorites.ColumnHeadersHeight = 4;
             dgvHomeFavorites.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
             dgvHomeFavorites.ColumnHeadersVisible = false;
-            dataGridViewCellStyle15.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle15.BackColor = Color.FromArgb(15, 15, 15);
-            dataGridViewCellStyle15.Font = new Font("Segoe UI", 11F);
-            dataGridViewCellStyle15.ForeColor = Color.White;
-            dataGridViewCellStyle15.SelectionBackColor = Color.FromArgb(231, 229, 255);
-            dataGridViewCellStyle15.SelectionForeColor = Color.FromArgb(71, 69, 94);
-            dataGridViewCellStyle15.WrapMode = DataGridViewTriState.False;
-            dgvHomeFavorites.DefaultCellStyle = dataGridViewCellStyle15;
+            dataGridViewCellStyle42.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle42.BackColor = Color.FromArgb(15, 15, 15);
+            dataGridViewCellStyle42.Font = new Font("Segoe UI", 11F);
+            dataGridViewCellStyle42.ForeColor = Color.White;
+            dataGridViewCellStyle42.SelectionBackColor = Color.FromArgb(231, 229, 255);
+            dataGridViewCellStyle42.SelectionForeColor = Color.FromArgb(71, 69, 94);
+            dataGridViewCellStyle42.WrapMode = DataGridViewTriState.False;
+            dgvHomeFavorites.DefaultCellStyle = dataGridViewCellStyle42;
             dgvHomeFavorites.GridColor = Color.FromArgb(231, 229, 255);
             dgvHomeFavorites.Location = new Point(16, 103);
             dgvHomeFavorites.MultiSelect = false;
@@ -823,12 +823,12 @@
             // 
             guna2PictureBox1.BackColor = Color.Transparent;
             guna2PictureBox1.BorderRadius = 20;
-            guna2PictureBox1.CustomizableEdges = customizableEdges23;
+            guna2PictureBox1.CustomizableEdges = customizableEdges95;
             guna2PictureBox1.Image = (Image)resources.GetObject("guna2PictureBox1.Image");
             guna2PictureBox1.ImageRotate = 0F;
             guna2PictureBox1.Location = new Point(8, 8);
             guna2PictureBox1.Name = "guna2PictureBox1";
-            guna2PictureBox1.ShadowDecoration.CustomizableEdges = customizableEdges24;
+            guna2PictureBox1.ShadowDecoration.CustomizableEdges = customizableEdges96;
             guna2PictureBox1.Size = new Size(82, 84);
             guna2PictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             guna2PictureBox1.TabIndex = 3;
@@ -837,45 +837,27 @@
             // pPlaylists
             // 
             pPlaylists.BorderRadius = 30;
-            pPlaylists.Controls.Add(btDeleteFromPlaylist);
             pPlaylists.Controls.Add(btAddPlaylist);
             pPlaylists.Controls.Add(btDeletePlaylist);
-            pPlaylists.Controls.Add(tbModifyPlaylist);
+            pPlaylists.Controls.Add(btModifyPlaylist);
             pPlaylists.Controls.Add(label3);
             pPlaylists.Controls.Add(guna2PictureBox3);
             pPlaylists.Controls.Add(dgvPlaylistsSongs);
             pPlaylists.Controls.Add(dgvPlaylists);
-            pPlaylists.CustomizableEdges = customizableEdges37;
+            pPlaylists.Controls.Add(btDeleteFromPlaylist);
+            pPlaylists.CustomizableEdges = customizableEdges109;
             pPlaylists.FillColor = Color.FromArgb(15, 15, 15);
             pPlaylists.Location = new Point(262, 40);
             pPlaylists.Name = "pPlaylists";
-            pPlaylists.ShadowDecoration.CustomizableEdges = customizableEdges38;
+            pPlaylists.ShadowDecoration.CustomizableEdges = customizableEdges110;
             pPlaylists.Size = new Size(1064, 693);
             pPlaylists.TabIndex = 9;
             pPlaylists.Visible = false;
             // 
-            // btDeleteFromPlaylist
-            // 
-            btDeleteFromPlaylist.BorderRadius = 10;
-            btDeleteFromPlaylist.CustomizableEdges = customizableEdges27;
-            btDeleteFromPlaylist.DisabledState.BorderColor = Color.DarkGray;
-            btDeleteFromPlaylist.DisabledState.CustomBorderColor = Color.DarkGray;
-            btDeleteFromPlaylist.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            btDeleteFromPlaylist.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            btDeleteFromPlaylist.Font = new Font("Segoe UI", 9F);
-            btDeleteFromPlaylist.ForeColor = Color.White;
-            btDeleteFromPlaylist.Location = new Point(751, 28);
-            btDeleteFromPlaylist.Name = "btDeleteFromPlaylist";
-            btDeleteFromPlaylist.ShadowDecoration.CustomizableEdges = customizableEdges28;
-            btDeleteFromPlaylist.Size = new Size(301, 50);
-            btDeleteFromPlaylist.TabIndex = 12;
-            btDeleteFromPlaylist.Text = "Delete from playlist";
-            btDeleteFromPlaylist.Click += btDeleteFromPlaylist_Click;
-            // 
             // btAddPlaylist
             // 
             btAddPlaylist.BorderRadius = 10;
-            btAddPlaylist.CustomizableEdges = customizableEdges29;
+            btAddPlaylist.CustomizableEdges = customizableEdges99;
             btAddPlaylist.DisabledState.BorderColor = Color.DarkGray;
             btAddPlaylist.DisabledState.CustomBorderColor = Color.DarkGray;
             btAddPlaylist.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -884,7 +866,7 @@
             btAddPlaylist.ForeColor = Color.White;
             btAddPlaylist.Location = new Point(596, 28);
             btAddPlaylist.Name = "btAddPlaylist";
-            btAddPlaylist.ShadowDecoration.CustomizableEdges = customizableEdges30;
+            btAddPlaylist.ShadowDecoration.CustomizableEdges = customizableEdges100;
             btAddPlaylist.Size = new Size(146, 50);
             btAddPlaylist.TabIndex = 11;
             btAddPlaylist.Text = "Add";
@@ -893,7 +875,7 @@
             // btDeletePlaylist
             // 
             btDeletePlaylist.BorderRadius = 10;
-            btDeletePlaylist.CustomizableEdges = customizableEdges31;
+            btDeletePlaylist.CustomizableEdges = customizableEdges101;
             btDeletePlaylist.DisabledState.BorderColor = Color.DarkGray;
             btDeletePlaylist.DisabledState.CustomBorderColor = Color.DarkGray;
             btDeletePlaylist.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -902,29 +884,116 @@
             btDeletePlaylist.ForeColor = Color.White;
             btDeletePlaylist.Location = new Point(906, 28);
             btDeletePlaylist.Name = "btDeletePlaylist";
-            btDeletePlaylist.ShadowDecoration.CustomizableEdges = customizableEdges32;
+            btDeletePlaylist.ShadowDecoration.CustomizableEdges = customizableEdges102;
             btDeletePlaylist.Size = new Size(146, 50);
             btDeletePlaylist.TabIndex = 10;
             btDeletePlaylist.Text = "Delete";
             btDeletePlaylist.Click += guna2Button2_Click;
             // 
-            // tbModifyPlaylist
+            // btModifyPlaylist
             // 
-            tbModifyPlaylist.BorderRadius = 10;
-            tbModifyPlaylist.CustomizableEdges = customizableEdges33;
-            tbModifyPlaylist.DisabledState.BorderColor = Color.DarkGray;
-            tbModifyPlaylist.DisabledState.CustomBorderColor = Color.DarkGray;
-            tbModifyPlaylist.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            tbModifyPlaylist.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            tbModifyPlaylist.Font = new Font("Segoe UI", 9F);
-            tbModifyPlaylist.ForeColor = Color.White;
-            tbModifyPlaylist.Location = new Point(751, 28);
-            tbModifyPlaylist.Name = "tbModifyPlaylist";
-            tbModifyPlaylist.ShadowDecoration.CustomizableEdges = customizableEdges34;
-            tbModifyPlaylist.Size = new Size(146, 50);
-            tbModifyPlaylist.TabIndex = 9;
-            tbModifyPlaylist.Text = "Modify";
-            tbModifyPlaylist.Click += guna2Button1_Click;
+            btModifyPlaylist.BorderRadius = 10;
+            btModifyPlaylist.CustomizableEdges = customizableEdges103;
+            btModifyPlaylist.DisabledState.BorderColor = Color.DarkGray;
+            btModifyPlaylist.DisabledState.CustomBorderColor = Color.DarkGray;
+            btModifyPlaylist.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btModifyPlaylist.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btModifyPlaylist.Font = new Font("Segoe UI", 9F);
+            btModifyPlaylist.ForeColor = Color.White;
+            btModifyPlaylist.Location = new Point(751, 28);
+            btModifyPlaylist.Name = "btModifyPlaylist";
+            btModifyPlaylist.ShadowDecoration.CustomizableEdges = customizableEdges104;
+            btModifyPlaylist.Size = new Size(146, 50);
+            btModifyPlaylist.TabIndex = 9;
+            btModifyPlaylist.Text = "Modify";
+            btModifyPlaylist.Click += guna2Button1_Click;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.BackColor = Color.Transparent;
+            label3.Font = new Font("Stencil", 25F, FontStyle.Bold | FontStyle.Italic);
+            label3.ForeColor = Color.White;
+            label3.Location = new Point(94, 28);
+            label3.Name = "label3";
+            label3.Size = new Size(218, 50);
+            label3.TabIndex = 5;
+            label3.Text = "Playlist";
+            // 
+            // guna2PictureBox3
+            // 
+            guna2PictureBox3.BackColor = Color.Transparent;
+            guna2PictureBox3.BorderRadius = 20;
+            guna2PictureBox3.CustomizableEdges = customizableEdges105;
+            guna2PictureBox3.Image = (Image)resources.GetObject("guna2PictureBox3.Image");
+            guna2PictureBox3.ImageRotate = 0F;
+            guna2PictureBox3.Location = new Point(8, 8);
+            guna2PictureBox3.Name = "guna2PictureBox3";
+            guna2PictureBox3.ShadowDecoration.CustomizableEdges = customizableEdges106;
+            guna2PictureBox3.Size = new Size(82, 84);
+            guna2PictureBox3.SizeMode = PictureBoxSizeMode.Zoom;
+            guna2PictureBox3.TabIndex = 3;
+            guna2PictureBox3.TabStop = false;
+            // 
+            // dgvPlaylistsSongs
+            // 
+            dgvPlaylistsSongs.AllowUserToAddRows = false;
+            dgvPlaylistsSongs.AllowUserToDeleteRows = false;
+            dgvPlaylistsSongs.AllowUserToResizeColumns = false;
+            dgvPlaylistsSongs.AllowUserToResizeRows = false;
+            dataGridViewCellStyle43.BackColor = Color.FromArgb(15, 15, 15);
+            dataGridViewCellStyle43.ForeColor = Color.White;
+            dgvPlaylistsSongs.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle43;
+            dgvPlaylistsSongs.BackgroundColor = Color.FromArgb(15, 15, 15);
+            dataGridViewCellStyle44.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle44.BackColor = Color.FromArgb(100, 88, 255);
+            dataGridViewCellStyle44.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            dataGridViewCellStyle44.ForeColor = Color.White;
+            dataGridViewCellStyle44.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle44.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle44.WrapMode = DataGridViewTriState.True;
+            dgvPlaylistsSongs.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle44;
+            dgvPlaylistsSongs.ColumnHeadersHeight = 4;
+            dgvPlaylistsSongs.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            dgvPlaylistsSongs.ColumnHeadersVisible = false;
+            dataGridViewCellStyle45.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle45.BackColor = Color.FromArgb(15, 15, 15);
+            dataGridViewCellStyle45.Font = new Font("Segoe UI", 11F);
+            dataGridViewCellStyle45.ForeColor = Color.White;
+            dataGridViewCellStyle45.SelectionBackColor = Color.FromArgb(231, 229, 255);
+            dataGridViewCellStyle45.SelectionForeColor = Color.FromArgb(71, 69, 94);
+            dataGridViewCellStyle45.WrapMode = DataGridViewTriState.False;
+            dgvPlaylistsSongs.DefaultCellStyle = dataGridViewCellStyle45;
+            dgvPlaylistsSongs.GridColor = Color.FromArgb(231, 229, 255);
+            dgvPlaylistsSongs.Location = new Point(16, 109);
+            dgvPlaylistsSongs.MultiSelect = false;
+            dgvPlaylistsSongs.Name = "dgvPlaylistsSongs";
+            dgvPlaylistsSongs.RowHeadersVisible = false;
+            dgvPlaylistsSongs.RowHeadersWidth = 51;
+            dgvPlaylistsSongs.RowTemplate.Height = 30;
+            dgvPlaylistsSongs.Size = new Size(1036, 580);
+            dgvPlaylistsSongs.TabIndex = 8;
+            dgvPlaylistsSongs.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White;
+            dgvPlaylistsSongs.ThemeStyle.AlternatingRowsStyle.Font = null;
+            dgvPlaylistsSongs.ThemeStyle.AlternatingRowsStyle.ForeColor = Color.Empty;
+            dgvPlaylistsSongs.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = Color.Empty;
+            dgvPlaylistsSongs.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = Color.Empty;
+            dgvPlaylistsSongs.ThemeStyle.BackColor = Color.FromArgb(15, 15, 15);
+            dgvPlaylistsSongs.ThemeStyle.GridColor = Color.FromArgb(231, 229, 255);
+            dgvPlaylistsSongs.ThemeStyle.HeaderStyle.BackColor = Color.FromArgb(100, 88, 255);
+            dgvPlaylistsSongs.ThemeStyle.HeaderStyle.BorderStyle = DataGridViewHeaderBorderStyle.None;
+            dgvPlaylistsSongs.ThemeStyle.HeaderStyle.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            dgvPlaylistsSongs.ThemeStyle.HeaderStyle.ForeColor = Color.White;
+            dgvPlaylistsSongs.ThemeStyle.HeaderStyle.HeaightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            dgvPlaylistsSongs.ThemeStyle.HeaderStyle.Height = 4;
+            dgvPlaylistsSongs.ThemeStyle.ReadOnly = false;
+            dgvPlaylistsSongs.ThemeStyle.RowsStyle.BackColor = Color.White;
+            dgvPlaylistsSongs.ThemeStyle.RowsStyle.BorderStyle = DataGridViewCellBorderStyle.SingleHorizontal;
+            dgvPlaylistsSongs.ThemeStyle.RowsStyle.Font = new Font("Segoe UI", 9F);
+            dgvPlaylistsSongs.ThemeStyle.RowsStyle.ForeColor = Color.FromArgb(71, 69, 94);
+            dgvPlaylistsSongs.ThemeStyle.RowsStyle.Height = 30;
+            dgvPlaylistsSongs.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(231, 229, 255);
+            dgvPlaylistsSongs.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(71, 69, 94);
             // 
             // dgvPlaylists
             // 
@@ -932,29 +1001,29 @@
             dgvPlaylists.AllowUserToDeleteRows = false;
             dgvPlaylists.AllowUserToResizeColumns = false;
             dgvPlaylists.AllowUserToResizeRows = false;
-            dataGridViewCellStyle19.BackColor = Color.FromArgb(15, 15, 15);
-            dataGridViewCellStyle19.ForeColor = Color.White;
-            dgvPlaylists.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle19;
+            dataGridViewCellStyle46.BackColor = Color.FromArgb(15, 15, 15);
+            dataGridViewCellStyle46.ForeColor = Color.White;
+            dgvPlaylists.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle46;
             dgvPlaylists.BackgroundColor = Color.FromArgb(15, 15, 15);
-            dataGridViewCellStyle20.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle20.BackColor = Color.FromArgb(100, 88, 255);
-            dataGridViewCellStyle20.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            dataGridViewCellStyle20.ForeColor = Color.White;
-            dataGridViewCellStyle20.SelectionBackColor = SystemColors.Highlight;
-            dataGridViewCellStyle20.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle20.WrapMode = DataGridViewTriState.True;
-            dgvPlaylists.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle20;
+            dataGridViewCellStyle47.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle47.BackColor = Color.FromArgb(100, 88, 255);
+            dataGridViewCellStyle47.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            dataGridViewCellStyle47.ForeColor = Color.White;
+            dataGridViewCellStyle47.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle47.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle47.WrapMode = DataGridViewTriState.True;
+            dgvPlaylists.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle47;
             dgvPlaylists.ColumnHeadersHeight = 4;
             dgvPlaylists.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
             dgvPlaylists.ColumnHeadersVisible = false;
-            dataGridViewCellStyle21.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle21.BackColor = Color.FromArgb(15, 15, 15);
-            dataGridViewCellStyle21.Font = new Font("Segoe UI", 11F);
-            dataGridViewCellStyle21.ForeColor = Color.White;
-            dataGridViewCellStyle21.SelectionBackColor = Color.FromArgb(231, 229, 255);
-            dataGridViewCellStyle21.SelectionForeColor = Color.FromArgb(71, 69, 94);
-            dataGridViewCellStyle21.WrapMode = DataGridViewTriState.False;
-            dgvPlaylists.DefaultCellStyle = dataGridViewCellStyle21;
+            dataGridViewCellStyle48.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle48.BackColor = Color.FromArgb(15, 15, 15);
+            dataGridViewCellStyle48.Font = new Font("Segoe UI", 11F);
+            dataGridViewCellStyle48.ForeColor = Color.White;
+            dataGridViewCellStyle48.SelectionBackColor = Color.FromArgb(231, 229, 255);
+            dataGridViewCellStyle48.SelectionForeColor = Color.FromArgb(71, 69, 94);
+            dataGridViewCellStyle48.WrapMode = DataGridViewTriState.False;
+            dgvPlaylists.DefaultCellStyle = dataGridViewCellStyle48;
             dgvPlaylists.GridColor = Color.FromArgb(231, 229, 255);
             dgvPlaylists.Location = new Point(16, 109);
             dgvPlaylists.MultiSelect = false;
@@ -988,102 +1057,33 @@
             dgvPlaylists.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(71, 69, 94);
             dgvPlaylists.CellDoubleClick += dgvPlaylists_CellDoubleClick;
             // 
-            // label3
+            // btDeleteFromPlaylist
             // 
-            label3.AutoSize = true;
-            label3.BackColor = Color.Transparent;
-            label3.Font = new Font("Stencil", 25F, FontStyle.Bold | FontStyle.Italic);
-            label3.ForeColor = Color.White;
-            label3.Location = new Point(94, 28);
-            label3.Name = "label3";
-            label3.Size = new Size(218, 50);
-            label3.TabIndex = 5;
-            label3.Text = "Playlist";
-            // 
-            // guna2PictureBox3
-            // 
-            guna2PictureBox3.BackColor = Color.Transparent;
-            guna2PictureBox3.BorderRadius = 20;
-            guna2PictureBox3.CustomizableEdges = customizableEdges35;
-            guna2PictureBox3.Image = (Image)resources.GetObject("guna2PictureBox3.Image");
-            guna2PictureBox3.ImageRotate = 0F;
-            guna2PictureBox3.Location = new Point(8, 8);
-            guna2PictureBox3.Name = "guna2PictureBox3";
-            guna2PictureBox3.ShadowDecoration.CustomizableEdges = customizableEdges36;
-            guna2PictureBox3.Size = new Size(82, 84);
-            guna2PictureBox3.SizeMode = PictureBoxSizeMode.Zoom;
-            guna2PictureBox3.TabIndex = 3;
-            guna2PictureBox3.TabStop = false;
-            // 
-            // dgvPlaylistsSongs
-            // 
-            dgvPlaylistsSongs.AllowUserToAddRows = false;
-            dgvPlaylistsSongs.AllowUserToDeleteRows = false;
-            dgvPlaylistsSongs.AllowUserToResizeColumns = false;
-            dgvPlaylistsSongs.AllowUserToResizeRows = false;
-            dataGridViewCellStyle16.BackColor = Color.FromArgb(15, 15, 15);
-            dataGridViewCellStyle16.ForeColor = Color.White;
-            dgvPlaylistsSongs.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle16;
-            dgvPlaylistsSongs.BackgroundColor = Color.FromArgb(15, 15, 15);
-            dataGridViewCellStyle17.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle17.BackColor = Color.FromArgb(100, 88, 255);
-            dataGridViewCellStyle17.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            dataGridViewCellStyle17.ForeColor = Color.White;
-            dataGridViewCellStyle17.SelectionBackColor = SystemColors.Highlight;
-            dataGridViewCellStyle17.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle17.WrapMode = DataGridViewTriState.True;
-            dgvPlaylistsSongs.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle17;
-            dgvPlaylistsSongs.ColumnHeadersHeight = 4;
-            dgvPlaylistsSongs.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            dgvPlaylistsSongs.ColumnHeadersVisible = false;
-            dataGridViewCellStyle18.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle18.BackColor = Color.FromArgb(15, 15, 15);
-            dataGridViewCellStyle18.Font = new Font("Segoe UI", 11F);
-            dataGridViewCellStyle18.ForeColor = Color.White;
-            dataGridViewCellStyle18.SelectionBackColor = Color.FromArgb(231, 229, 255);
-            dataGridViewCellStyle18.SelectionForeColor = Color.FromArgb(71, 69, 94);
-            dataGridViewCellStyle18.WrapMode = DataGridViewTriState.False;
-            dgvPlaylistsSongs.DefaultCellStyle = dataGridViewCellStyle18;
-            dgvPlaylistsSongs.GridColor = Color.FromArgb(231, 229, 255);
-            dgvPlaylistsSongs.Location = new Point(16, 109);
-            dgvPlaylistsSongs.MultiSelect = false;
-            dgvPlaylistsSongs.Name = "dgvPlaylistsSongs";
-            dgvPlaylistsSongs.RowHeadersVisible = false;
-            dgvPlaylistsSongs.RowHeadersWidth = 51;
-            dgvPlaylistsSongs.RowTemplate.Height = 30;
-            dgvPlaylistsSongs.Size = new Size(1036, 580);
-            dgvPlaylistsSongs.TabIndex = 8;
-            dgvPlaylistsSongs.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White;
-            dgvPlaylistsSongs.ThemeStyle.AlternatingRowsStyle.Font = null;
-            dgvPlaylistsSongs.ThemeStyle.AlternatingRowsStyle.ForeColor = Color.Empty;
-            dgvPlaylistsSongs.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = Color.Empty;
-            dgvPlaylistsSongs.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = Color.Empty;
-            dgvPlaylistsSongs.ThemeStyle.BackColor = Color.FromArgb(15, 15, 15);
-            dgvPlaylistsSongs.ThemeStyle.GridColor = Color.FromArgb(231, 229, 255);
-            dgvPlaylistsSongs.ThemeStyle.HeaderStyle.BackColor = Color.FromArgb(100, 88, 255);
-            dgvPlaylistsSongs.ThemeStyle.HeaderStyle.BorderStyle = DataGridViewHeaderBorderStyle.None;
-            dgvPlaylistsSongs.ThemeStyle.HeaderStyle.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            dgvPlaylistsSongs.ThemeStyle.HeaderStyle.ForeColor = Color.White;
-            dgvPlaylistsSongs.ThemeStyle.HeaderStyle.HeaightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            dgvPlaylistsSongs.ThemeStyle.HeaderStyle.Height = 4;
-            dgvPlaylistsSongs.ThemeStyle.ReadOnly = false;
-            dgvPlaylistsSongs.ThemeStyle.RowsStyle.BackColor = Color.White;
-            dgvPlaylistsSongs.ThemeStyle.RowsStyle.BorderStyle = DataGridViewCellBorderStyle.SingleHorizontal;
-            dgvPlaylistsSongs.ThemeStyle.RowsStyle.Font = new Font("Segoe UI", 9F);
-            dgvPlaylistsSongs.ThemeStyle.RowsStyle.ForeColor = Color.FromArgb(71, 69, 94);
-            dgvPlaylistsSongs.ThemeStyle.RowsStyle.Height = 30;
-            dgvPlaylistsSongs.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(231, 229, 255);
-            dgvPlaylistsSongs.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(71, 69, 94);
+            btDeleteFromPlaylist.BorderRadius = 10;
+            btDeleteFromPlaylist.CustomizableEdges = customizableEdges107;
+            btDeleteFromPlaylist.DisabledState.BorderColor = Color.DarkGray;
+            btDeleteFromPlaylist.DisabledState.CustomBorderColor = Color.DarkGray;
+            btDeleteFromPlaylist.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btDeleteFromPlaylist.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btDeleteFromPlaylist.Font = new Font("Segoe UI", 9F);
+            btDeleteFromPlaylist.ForeColor = Color.White;
+            btDeleteFromPlaylist.Location = new Point(751, 28);
+            btDeleteFromPlaylist.Name = "btDeleteFromPlaylist";
+            btDeleteFromPlaylist.ShadowDecoration.CustomizableEdges = customizableEdges108;
+            btDeleteFromPlaylist.Size = new Size(301, 50);
+            btDeleteFromPlaylist.TabIndex = 12;
+            btDeleteFromPlaylist.Text = "Delete from playlist";
+            btDeleteFromPlaylist.Click += btDeleteFromPlaylist_Click;
             // 
             // guna2PictureBox2
             // 
             guna2PictureBox2.BorderRadius = 20;
-            guna2PictureBox2.CustomizableEdges = customizableEdges39;
+            guna2PictureBox2.CustomizableEdges = customizableEdges111;
             guna2PictureBox2.Image = (Image)resources.GetObject("guna2PictureBox2.Image");
             guna2PictureBox2.ImageRotate = 0F;
             guna2PictureBox2.Location = new Point(8, 8);
             guna2PictureBox2.Name = "guna2PictureBox2";
-            guna2PictureBox2.ShadowDecoration.CustomizableEdges = customizableEdges40;
+            guna2PictureBox2.ShadowDecoration.CustomizableEdges = customizableEdges112;
             guna2PictureBox2.Size = new Size(82, 84);
             guna2PictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
             guna2PictureBox2.TabIndex = 3;
@@ -1095,40 +1095,40 @@
             pNewSongs.Controls.Add(dgvNewSongs);
             pNewSongs.Controls.Add(label2);
             pNewSongs.Controls.Add(guna2PictureBox2);
-            pNewSongs.CustomizableEdges = customizableEdges41;
+            pNewSongs.CustomizableEdges = customizableEdges113;
             pNewSongs.FillColor = Color.FromArgb(15, 15, 15);
             pNewSongs.Location = new Point(263, 389);
             pNewSongs.Name = "pNewSongs";
-            pNewSongs.ShadowDecoration.CustomizableEdges = customizableEdges42;
+            pNewSongs.ShadowDecoration.CustomizableEdges = customizableEdges114;
             pNewSongs.Size = new Size(1063, 352);
             pNewSongs.TabIndex = 4;
             // 
             // dgvNewSongs
             // 
             dgvNewSongs.AllowUserToAddRows = false;
-            dataGridViewCellStyle22.BackColor = Color.FromArgb(15, 15, 15);
-            dataGridViewCellStyle22.ForeColor = Color.White;
-            dgvNewSongs.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle22;
+            dataGridViewCellStyle49.BackColor = Color.FromArgb(15, 15, 15);
+            dataGridViewCellStyle49.ForeColor = Color.White;
+            dgvNewSongs.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle49;
             dgvNewSongs.BackgroundColor = Color.FromArgb(15, 15, 15);
-            dataGridViewCellStyle23.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle23.BackColor = Color.FromArgb(100, 88, 255);
-            dataGridViewCellStyle23.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            dataGridViewCellStyle23.ForeColor = Color.White;
-            dataGridViewCellStyle23.SelectionBackColor = SystemColors.Highlight;
-            dataGridViewCellStyle23.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle23.WrapMode = DataGridViewTriState.True;
-            dgvNewSongs.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle23;
+            dataGridViewCellStyle50.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle50.BackColor = Color.FromArgb(100, 88, 255);
+            dataGridViewCellStyle50.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            dataGridViewCellStyle50.ForeColor = Color.White;
+            dataGridViewCellStyle50.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle50.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle50.WrapMode = DataGridViewTriState.True;
+            dgvNewSongs.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle50;
             dgvNewSongs.ColumnHeadersHeight = 4;
             dgvNewSongs.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
             dgvNewSongs.ColumnHeadersVisible = false;
-            dataGridViewCellStyle24.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle24.BackColor = Color.FromArgb(15, 15, 15);
-            dataGridViewCellStyle24.Font = new Font("Segoe UI", 11F);
-            dataGridViewCellStyle24.ForeColor = Color.White;
-            dataGridViewCellStyle24.SelectionBackColor = Color.FromArgb(231, 229, 255);
-            dataGridViewCellStyle24.SelectionForeColor = Color.FromArgb(71, 69, 94);
-            dataGridViewCellStyle24.WrapMode = DataGridViewTriState.False;
-            dgvNewSongs.DefaultCellStyle = dataGridViewCellStyle24;
+            dataGridViewCellStyle51.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle51.BackColor = Color.FromArgb(15, 15, 15);
+            dataGridViewCellStyle51.Font = new Font("Segoe UI", 11F);
+            dataGridViewCellStyle51.ForeColor = Color.White;
+            dataGridViewCellStyle51.SelectionBackColor = Color.FromArgb(231, 229, 255);
+            dataGridViewCellStyle51.SelectionForeColor = Color.FromArgb(71, 69, 94);
+            dataGridViewCellStyle51.WrapMode = DataGridViewTriState.False;
+            dgvNewSongs.DefaultCellStyle = dataGridViewCellStyle51;
             dgvNewSongs.GridColor = Color.FromArgb(231, 229, 255);
             dgvNewSongs.Location = new Point(16, 102);
             dgvNewSongs.Name = "dgvNewSongs";
@@ -1183,10 +1183,10 @@
             // btClose
             // 
             btClose.BorderRadius = 15;
-            customizableEdges45.BottomLeft = false;
-            customizableEdges45.BottomRight = false;
-            customizableEdges45.TopLeft = false;
-            btClose.CustomizableEdges = customizableEdges45;
+            customizableEdges115.BottomLeft = false;
+            customizableEdges115.BottomRight = false;
+            customizableEdges115.TopLeft = false;
+            btClose.CustomizableEdges = customizableEdges115;
             btClose.DisabledState.BorderColor = Color.DarkGray;
             btClose.DisabledState.CustomBorderColor = Color.DarkGray;
             btClose.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -1197,7 +1197,7 @@
             btClose.HoverState.FillColor = Color.Red;
             btClose.Location = new Point(1277, 0);
             btClose.Name = "btClose";
-            btClose.ShadowDecoration.CustomizableEdges = customizableEdges46;
+            btClose.ShadowDecoration.CustomizableEdges = customizableEdges116;
             btClose.Size = new Size(63, 33);
             btClose.TabIndex = 5;
             btClose.Text = "x";
@@ -1207,10 +1207,10 @@
             // 
             btMinimize.BorderColor = Color.Transparent;
             btMinimize.BorderRadius = 1;
-            customizableEdges43.BottomLeft = false;
-            customizableEdges43.BottomRight = false;
-            customizableEdges43.TopLeft = false;
-            btMinimize.CustomizableEdges = customizableEdges43;
+            customizableEdges117.BottomLeft = false;
+            customizableEdges117.BottomRight = false;
+            customizableEdges117.TopLeft = false;
+            btMinimize.CustomizableEdges = customizableEdges117;
             btMinimize.DisabledState.BorderColor = Color.DarkGray;
             btMinimize.DisabledState.CustomBorderColor = Color.DarkGray;
             btMinimize.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -1220,7 +1220,7 @@
             btMinimize.ForeColor = Color.White;
             btMinimize.Location = new Point(1210, 0);
             btMinimize.Name = "btMinimize";
-            btMinimize.ShadowDecoration.CustomizableEdges = customizableEdges44;
+            btMinimize.ShadowDecoration.CustomizableEdges = customizableEdges118;
             btMinimize.Size = new Size(63, 33);
             btMinimize.TabIndex = 6;
             btMinimize.Text = "-";
@@ -1243,11 +1243,11 @@
             pControlPanel.Controls.Add(dgvControlPanel);
             pControlPanel.Controls.Add(label4);
             pControlPanel.Controls.Add(guna2PictureBox4);
-            pControlPanel.CustomizableEdges = customizableEdges71;
+            pControlPanel.CustomizableEdges = customizableEdges143;
             pControlPanel.FillColor = Color.FromArgb(15, 15, 15);
             pControlPanel.Location = new Point(262, 40);
             pControlPanel.Name = "pControlPanel";
-            pControlPanel.ShadowDecoration.CustomizableEdges = customizableEdges72;
+            pControlPanel.ShadowDecoration.CustomizableEdges = customizableEdges144;
             pControlPanel.Size = new Size(1064, 693);
             pControlPanel.TabIndex = 11;
             pControlPanel.Visible = false;
@@ -1255,7 +1255,7 @@
             // tbx6
             // 
             tbx6.BorderRadius = 20;
-            tbx6.CustomizableEdges = customizableEdges47;
+            tbx6.CustomizableEdges = customizableEdges119;
             tbx6.DefaultText = "";
             tbx6.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             tbx6.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -1270,14 +1270,14 @@
             tbx6.PasswordChar = '\0';
             tbx6.PlaceholderText = "Numar de ascultari:";
             tbx6.SelectedText = "";
-            tbx6.ShadowDecoration.CustomizableEdges = customizableEdges48;
+            tbx6.ShadowDecoration.CustomizableEdges = customizableEdges120;
             tbx6.Size = new Size(326, 54);
             tbx6.TabIndex = 23;
             // 
             // tbx5
             // 
             tbx5.BorderRadius = 20;
-            tbx5.CustomizableEdges = customizableEdges49;
+            tbx5.CustomizableEdges = customizableEdges121;
             tbx5.DefaultText = "";
             tbx5.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             tbx5.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -1292,14 +1292,14 @@
             tbx5.PasswordChar = '\0';
             tbx5.PlaceholderText = "An:";
             tbx5.SelectedText = "";
-            tbx5.ShadowDecoration.CustomizableEdges = customizableEdges50;
+            tbx5.ShadowDecoration.CustomizableEdges = customizableEdges122;
             tbx5.Size = new Size(326, 54);
             tbx5.TabIndex = 22;
             // 
             // tbx4
             // 
             tbx4.BorderRadius = 20;
-            tbx4.CustomizableEdges = customizableEdges51;
+            tbx4.CustomizableEdges = customizableEdges123;
             tbx4.DefaultText = "";
             tbx4.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             tbx4.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -1314,14 +1314,14 @@
             tbx4.PasswordChar = '\0';
             tbx4.PlaceholderText = "Gen:";
             tbx4.SelectedText = "";
-            tbx4.ShadowDecoration.CustomizableEdges = customizableEdges52;
+            tbx4.ShadowDecoration.CustomizableEdges = customizableEdges124;
             tbx4.Size = new Size(326, 54);
             tbx4.TabIndex = 21;
             // 
             // tbx3
             // 
             tbx3.BorderRadius = 20;
-            tbx3.CustomizableEdges = customizableEdges53;
+            tbx3.CustomizableEdges = customizableEdges125;
             tbx3.DefaultText = "";
             tbx3.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             tbx3.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -1336,14 +1336,14 @@
             tbx3.PasswordChar = '\0';
             tbx3.PlaceholderText = "Album:";
             tbx3.SelectedText = "";
-            tbx3.ShadowDecoration.CustomizableEdges = customizableEdges54;
+            tbx3.ShadowDecoration.CustomizableEdges = customizableEdges126;
             tbx3.Size = new Size(326, 54);
             tbx3.TabIndex = 20;
             // 
             // tbx2
             // 
             tbx2.BorderRadius = 20;
-            tbx2.CustomizableEdges = customizableEdges55;
+            tbx2.CustomizableEdges = customizableEdges127;
             tbx2.DefaultText = "";
             tbx2.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             tbx2.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -1358,14 +1358,14 @@
             tbx2.PasswordChar = '\0';
             tbx2.PlaceholderText = "Grupa:";
             tbx2.SelectedText = "";
-            tbx2.ShadowDecoration.CustomizableEdges = customizableEdges56;
+            tbx2.ShadowDecoration.CustomizableEdges = customizableEdges128;
             tbx2.Size = new Size(326, 54);
             tbx2.TabIndex = 19;
             // 
             // tbx1
             // 
             tbx1.BorderRadius = 20;
-            tbx1.CustomizableEdges = customizableEdges57;
+            tbx1.CustomizableEdges = customizableEdges129;
             tbx1.DefaultText = "";
             tbx1.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             tbx1.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -1380,14 +1380,14 @@
             tbx1.PasswordChar = '\0';
             tbx1.PlaceholderText = "Denumirea:";
             tbx1.SelectedText = "";
-            tbx1.ShadowDecoration.CustomizableEdges = customizableEdges58;
+            tbx1.ShadowDecoration.CustomizableEdges = customizableEdges130;
             tbx1.Size = new Size(326, 54);
             tbx1.TabIndex = 13;
             // 
             // btModify
             // 
             btModify.BorderRadius = 20;
-            btModify.CustomizableEdges = customizableEdges59;
+            btModify.CustomizableEdges = customizableEdges131;
             btModify.DisabledState.BorderColor = Color.DarkGray;
             btModify.DisabledState.CustomBorderColor = Color.DarkGray;
             btModify.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -1396,7 +1396,7 @@
             btModify.ForeColor = Color.White;
             btModify.Location = new Point(794, 176);
             btModify.Name = "btModify";
-            btModify.ShadowDecoration.CustomizableEdges = customizableEdges60;
+            btModify.ShadowDecoration.CustomizableEdges = customizableEdges132;
             btModify.Size = new Size(251, 56);
             btModify.TabIndex = 12;
             btModify.Text = "Modify";
@@ -1405,7 +1405,7 @@
             // btAdd
             // 
             btAdd.BorderRadius = 20;
-            btAdd.CustomizableEdges = customizableEdges61;
+            btAdd.CustomizableEdges = customizableEdges133;
             btAdd.DisabledState.BorderColor = Color.DarkGray;
             btAdd.DisabledState.CustomBorderColor = Color.DarkGray;
             btAdd.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -1414,7 +1414,7 @@
             btAdd.ForeColor = Color.White;
             btAdd.Location = new Point(794, 100);
             btAdd.Name = "btAdd";
-            btAdd.ShadowDecoration.CustomizableEdges = customizableEdges62;
+            btAdd.ShadowDecoration.CustomizableEdges = customizableEdges134;
             btAdd.Size = new Size(251, 56);
             btAdd.TabIndex = 11;
             btAdd.Text = "Add";
@@ -1423,7 +1423,7 @@
             // btDelete
             // 
             btDelete.BorderRadius = 20;
-            btDelete.CustomizableEdges = customizableEdges63;
+            btDelete.CustomizableEdges = customizableEdges135;
             btDelete.DisabledState.BorderColor = Color.DarkGray;
             btDelete.DisabledState.CustomBorderColor = Color.DarkGray;
             btDelete.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -1432,7 +1432,7 @@
             btDelete.ForeColor = Color.White;
             btDelete.Location = new Point(794, 255);
             btDelete.Name = "btDelete";
-            btDelete.ShadowDecoration.CustomizableEdges = customizableEdges64;
+            btDelete.ShadowDecoration.CustomizableEdges = customizableEdges136;
             btDelete.Size = new Size(251, 56);
             btDelete.TabIndex = 10;
             btDelete.Text = "Delete";
@@ -1441,7 +1441,7 @@
             // btControlsUsers
             // 
             btControlsUsers.BorderRadius = 20;
-            btControlsUsers.CustomizableEdges = customizableEdges65;
+            btControlsUsers.CustomizableEdges = customizableEdges137;
             btControlsUsers.DisabledState.BorderColor = Color.DarkGray;
             btControlsUsers.DisabledState.CustomBorderColor = Color.DarkGray;
             btControlsUsers.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -1450,7 +1450,7 @@
             btControlsUsers.ForeColor = Color.White;
             btControlsUsers.Location = new Point(794, 22);
             btControlsUsers.Name = "btControlsUsers";
-            btControlsUsers.ShadowDecoration.CustomizableEdges = customizableEdges66;
+            btControlsUsers.ShadowDecoration.CustomizableEdges = customizableEdges138;
             btControlsUsers.Size = new Size(251, 56);
             btControlsUsers.TabIndex = 9;
             btControlsUsers.Text = "User";
@@ -1459,7 +1459,7 @@
             // btControlsMusic
             // 
             btControlsMusic.BorderRadius = 20;
-            btControlsMusic.CustomizableEdges = customizableEdges67;
+            btControlsMusic.CustomizableEdges = customizableEdges139;
             btControlsMusic.DisabledState.BorderColor = Color.DarkGray;
             btControlsMusic.DisabledState.CustomBorderColor = Color.DarkGray;
             btControlsMusic.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -1468,7 +1468,7 @@
             btControlsMusic.ForeColor = Color.White;
             btControlsMusic.Location = new Point(499, 22);
             btControlsMusic.Name = "btControlsMusic";
-            btControlsMusic.ShadowDecoration.CustomizableEdges = customizableEdges68;
+            btControlsMusic.ShadowDecoration.CustomizableEdges = customizableEdges140;
             btControlsMusic.Size = new Size(251, 56);
             btControlsMusic.TabIndex = 8;
             btControlsMusic.Text = "Music";
@@ -1480,29 +1480,29 @@
             dgvControlPanel.AllowUserToDeleteRows = false;
             dgvControlPanel.AllowUserToResizeColumns = false;
             dgvControlPanel.AllowUserToResizeRows = false;
-            dataGridViewCellStyle25.BackColor = Color.FromArgb(15, 15, 15);
-            dataGridViewCellStyle25.ForeColor = Color.White;
-            dgvControlPanel.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle25;
+            dataGridViewCellStyle52.BackColor = Color.FromArgb(15, 15, 15);
+            dataGridViewCellStyle52.ForeColor = Color.White;
+            dgvControlPanel.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle52;
             dgvControlPanel.BackgroundColor = Color.FromArgb(15, 15, 15);
-            dataGridViewCellStyle26.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle26.BackColor = Color.FromArgb(100, 88, 255);
-            dataGridViewCellStyle26.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            dataGridViewCellStyle26.ForeColor = Color.White;
-            dataGridViewCellStyle26.SelectionBackColor = SystemColors.Highlight;
-            dataGridViewCellStyle26.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle26.WrapMode = DataGridViewTriState.True;
-            dgvControlPanel.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle26;
+            dataGridViewCellStyle53.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle53.BackColor = Color.FromArgb(100, 88, 255);
+            dataGridViewCellStyle53.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            dataGridViewCellStyle53.ForeColor = Color.White;
+            dataGridViewCellStyle53.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle53.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle53.WrapMode = DataGridViewTriState.True;
+            dgvControlPanel.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle53;
             dgvControlPanel.ColumnHeadersHeight = 4;
             dgvControlPanel.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
             dgvControlPanel.ColumnHeadersVisible = false;
-            dataGridViewCellStyle27.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle27.BackColor = Color.FromArgb(15, 15, 15);
-            dataGridViewCellStyle27.Font = new Font("Segoe UI", 11F);
-            dataGridViewCellStyle27.ForeColor = Color.White;
-            dataGridViewCellStyle27.SelectionBackColor = Color.FromArgb(231, 229, 255);
-            dataGridViewCellStyle27.SelectionForeColor = Color.FromArgb(71, 69, 94);
-            dataGridViewCellStyle27.WrapMode = DataGridViewTriState.False;
-            dgvControlPanel.DefaultCellStyle = dataGridViewCellStyle27;
+            dataGridViewCellStyle54.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle54.BackColor = Color.FromArgb(15, 15, 15);
+            dataGridViewCellStyle54.Font = new Font("Segoe UI", 11F);
+            dataGridViewCellStyle54.ForeColor = Color.White;
+            dataGridViewCellStyle54.SelectionBackColor = Color.FromArgb(231, 229, 255);
+            dataGridViewCellStyle54.SelectionForeColor = Color.FromArgb(71, 69, 94);
+            dataGridViewCellStyle54.WrapMode = DataGridViewTriState.False;
+            dgvControlPanel.DefaultCellStyle = dataGridViewCellStyle54;
             dgvControlPanel.GridColor = Color.FromArgb(231, 229, 255);
             dgvControlPanel.Location = new Point(16, 334);
             dgvControlPanel.MultiSelect = false;
@@ -1552,12 +1552,12 @@
             // 
             guna2PictureBox4.BackColor = Color.Transparent;
             guna2PictureBox4.BorderRadius = 20;
-            guna2PictureBox4.CustomizableEdges = customizableEdges69;
+            guna2PictureBox4.CustomizableEdges = customizableEdges141;
             guna2PictureBox4.Image = (Image)resources.GetObject("guna2PictureBox4.Image");
             guna2PictureBox4.ImageRotate = 0F;
             guna2PictureBox4.Location = new Point(8, 8);
             guna2PictureBox4.Name = "guna2PictureBox4";
-            guna2PictureBox4.ShadowDecoration.CustomizableEdges = customizableEdges70;
+            guna2PictureBox4.ShadowDecoration.CustomizableEdges = customizableEdges142;
             guna2PictureBox4.Size = new Size(82, 84);
             guna2PictureBox4.SizeMode = PictureBoxSizeMode.Zoom;
             guna2PictureBox4.TabIndex = 3;
@@ -1595,9 +1595,9 @@
             ((System.ComponentModel.ISupportInitialize)guna2PictureBox1).EndInit();
             pPlaylists.ResumeLayout(false);
             pPlaylists.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)dgvPlaylists).EndInit();
             ((System.ComponentModel.ISupportInitialize)guna2PictureBox3).EndInit();
             ((System.ComponentModel.ISupportInitialize)dgvPlaylistsSongs).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dgvPlaylists).EndInit();
             ((System.ComponentModel.ISupportInitialize)guna2PictureBox2).EndInit();
             pNewSongs.ResumeLayout(false);
             pNewSongs.PerformLayout();
@@ -1661,7 +1661,7 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
         private Guna.UI2.WinForms.Guna2Button btAddPlaylist;
         private Guna.UI2.WinForms.Guna2Button btDeletePlaylist;
-        private Guna.UI2.WinForms.Guna2Button tbModifyPlaylist;
+        private Guna.UI2.WinForms.Guna2Button btModifyPlaylist;
         private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox1;
         private Guna.UI2.WinForms.Guna2Button btAddToPlaylist;
         private Guna.UI2.WinForms.Guna2Button btDeleteFromPlaylist;
