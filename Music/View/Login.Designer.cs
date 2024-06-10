@@ -50,6 +50,7 @@
             btMiniminze = new Guna.UI2.WinForms.Guna2Button();
             guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             lUserNF = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            label1 = new Label();
             ((System.ComponentModel.ISupportInitialize)guna2PictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -201,12 +202,24 @@
             lUserNF.TextAlignment = ContentAlignment.TopCenter;
             lUserNF.Visible = false;
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.ForeColor = Color.White;
+            label1.Location = new Point(154, 416);
+            label1.Name = "label1";
+            label1.Size = new Size(85, 20);
+            label1.TabIndex = 10;
+            label1.Text = "registration";
+            label1.Click += label1_Click;
+            // 
             // Login
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(26, 26, 26);
             ClientSize = new Size(384, 450);
+            Controls.Add(label1);
             Controls.Add(lUserNF);
             Controls.Add(guna2PictureBox1);
             Controls.Add(btMiniminze);
@@ -220,6 +233,7 @@
             Text = "Login";
             ((System.ComponentModel.ISupportInitialize)guna2PictureBox1).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -232,5 +246,6 @@
         private Guna.UI2.WinForms.Guna2Button btMiniminze;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
         private Guna.UI2.WinForms.Guna2HtmlLabel lUserNF;
+        private Label label1;
     }
 }

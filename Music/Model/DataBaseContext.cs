@@ -1,14 +1,13 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Music.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Music.View
+namespace Music.Model
 {
-    public class AllMusicContext : DbContext
+    public class DataBaseContext : DbContext
     {
         public DbSet<AllMusic> AllMusic { get; set; } = null!;
         public DbSet<Users> Users { get; set; } = null!;
