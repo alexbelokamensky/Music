@@ -60,7 +60,7 @@ namespace Music.Controllers
         {
             using (var dataBaseContext = new DataBaseContext())
             {
-                Users user = GetUserById(id);
+                Users user = dataBaseContext.Users.FirstOrDefault(u => u.Id == id);
                 if (user != null)
                 {
                     user.Nume = nume;

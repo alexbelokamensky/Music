@@ -4,6 +4,7 @@ using Microsoft.VisualBasic.ApplicationServices;
 using Music.Model;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -63,7 +64,8 @@ namespace Music.Controllers
         {
             using (DataBaseContext dataBaseContext = new DataBaseContext())
             {
-                Playlists playlists = GetPlaylistById(id);
+                Playlists playlists = dataBaseContext.Playlists.FirstOrDefault(p => p.Id == id);
+                Debug.Write(playlists.Denumirea);
                 if (playlists != null)
                 {
                     playlists.Denumirea = playlistName;

@@ -119,9 +119,9 @@
             btLogin.DisabledState.CustomBorderColor = Color.DarkGray;
             btLogin.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
             btLogin.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            btLogin.Font = new Font("Segoe UI Semibold", 15F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btLogin.Font = new Font("Stencil", 16.2F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             btLogin.ForeColor = Color.White;
-            btLogin.Location = new Point(47, 345);
+            btLogin.Location = new Point(47, 339);
             btLogin.Name = "btLogin";
             btLogin.ShadowDecoration.CustomizableEdges = customizableEdges8;
             btLogin.Size = new Size(286, 56);
@@ -192,7 +192,7 @@
             // 
             lUserNF.AutoSize = false;
             lUserNF.BackColor = Color.IndianRed;
-            lUserNF.Font = new Font("Segoe UI", 15F);
+            lUserNF.Font = new Font("Stencil", 16.2F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             lUserNF.ForeColor = Color.White;
             lUserNF.Location = new Point(-2, 44);
             lUserNF.Name = "lUserNF";
@@ -205,10 +205,11 @@
             // label1
             // 
             label1.AutoSize = true;
+            label1.Font = new Font("Stencil", 13.8F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.White;
-            label1.Location = new Point(154, 416);
+            label1.Location = new Point(92, 408);
             label1.Name = "label1";
-            label1.Size = new Size(85, 20);
+            label1.Size = new Size(186, 27);
             label1.TabIndex = 10;
             label1.Text = "registration";
             label1.Click += label1_Click;

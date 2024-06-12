@@ -1,4 +1,5 @@
-﻿using Microsoft.VisualBasic.ApplicationServices;
+﻿using Guna.UI2.WinForms;
+using Microsoft.VisualBasic.ApplicationServices;
 using Music.Model;
 using System;
 using System.Collections.Generic;
@@ -8,6 +9,7 @@ using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Security.Cryptography;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
@@ -40,28 +42,62 @@ namespace Music
                 using (var context = new DataBaseContext())
                 {
                     UserName = tbxLogin.Text;
-                    bool userExists = context.Users.Any(u => u.Nume == tbxLogin.Text && u.Parola == tbxPassword.Text);
-                    if (userExists) DialogResult = DialogResult.OK;
-                    else lUserNF.Visible = true;
+                    string password = tbxPassword.Text;
+
+                    var user = context.Users.SingleOrDefault(u => u.Nume == tbxLogin.Text);
+
+                    if (user != null && VerifyPassword(tbxPassword.Text, user.Parola))
+                    {
+                        DialogResult = DialogResult.OK;
+                    }
+                    else
+                    {
+                        lUserNF.Visible = true;
+                        lUserNF.Text = "User not found";
+                    }
                 }
             }
             else
             {
-                using(var context = new DataBaseContext())
+                using (var context = new DataBaseContext())
                 {
-                    UserName = tbxLogin.Text;
-                    Users user = new Users()
+                    if (!context.Users.Any(u => u.Nume == tbxLogin.Text))
                     {
-                        Id = context.Users.OrderBy(u => u.Id).Last().Id + 1,
-                        Nume = tbxLogin.Text,
-                        Parola = tbxPassword.Text,
-                        Rol = "user"
-                    };
-                    context.Users.Add(user);
-                    context.SaveChanges();
-                    DialogResult = DialogResult.OK;
+                        UserName = tbxLogin.Text;
+                        Users user = new Users()
+                        {
+                            Id = context.Users.OrderBy(u => u.Id).Last().Id + 1,
+                            Nume = tbxLogin.Text,
+                            Parola = HashPassword(tbxPassword.Text),
+                            Rol = "user"
+                        };
+                        context.Users.Add(user);
+                        DialogResult = DialogResult.OK;
+                        Playlists playlists = new Playlists()
+                        {
+                            Id = context.Playlists.OrderBy(p => p.Id).Last().Id + 1,
+                            Denumirea = "Favorites",
+                            IdUser = user.Id,
+                        };
+                        context.Playlists.Add(playlists);
+                        context.SaveChanges();
+                    }
+                    else
+                    {
+                        lUserNF.Visible = true;
+                        lUserNF.Text = "Username is taken";
+                    }
                 }
             }
+        }
+
+        static string HashPassword(string password)
+        {
+            return BCrypt.Net.BCrypt.HashPassword(password);
+        }
+        static bool VerifyPassword(string password, string hashedPassword)
+        {
+            return BCrypt.Net.BCrypt.Verify(password, hashedPassword);
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -71,12 +107,14 @@ namespace Music
                 label1.Text = "Log in";
                 btLogin.Text = "Registration";
                 isRegistration = true;
+                label1.Location = new Point(140, 408);
             }
             else
             {
                 btLogin.Text = "Log in";
                 label1.Text = "Registration";
                 isRegistration = false;
+                label1.Location = new Point(92, 408);
             }
         }
     }

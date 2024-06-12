@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "mEuNxVWHdw6RvfgDJ0C+4jHfwdDp/4yNSrF1ZaRv1IvcVQsqbkIvnCGHlWb4SHQDuZTZqADdQuWY41goc6a/OA==",
+  "dgSpecHash": "4C34XNDTaZlUWJsWuYy5qlt1TZOkiKAKWvr5Tpas1XgdikxD3x1WWmQG3Ilp/8MigJDJ8DG8EfUoVpPvfDhmBA==",
   "success": true,
   "projectFilePath": "C:\\Lessons\\Practica\\Music\\Music\\Music.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alexandr\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Alexandr\\.nuget\\packages\\azure.identity\\1.11.3\\azure.identity.1.11.3.nupkg.sha512",
+    "C:\\Users\\Alexandr\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\Alexandr\\.nuget\\packages\\guna.ui2.winforms\\2.0.4.6\\guna.ui2.winforms.2.0.4.6.nupkg.sha512",
     "C:\\Users\\Alexandr\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Alexandr\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

@@ -19,11 +19,16 @@ namespace Music
         public string playlistName;
         private void btCreatePlaylist_Click(object sender, EventArgs e)
         {
-            if(tbxPlaylistName.Text != "")
+            if (tbxPlaylistName.Text != "")
             {
                 playlistName = tbxPlaylistName.Text;
                 DialogResult = DialogResult.OK;
             }
+        }
+
+        private void btClose_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }

@@ -1,4 +1,6 @@
+﻿using Guna.UI2.WinForms;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using Microsoft.VisualBasic.ApplicationServices;
 using Music.Controllers;
 using Music.Model;
@@ -29,7 +31,7 @@ namespace Music
                 else Close();
             }
             btUser.Text = userName;
-
+            pRaports.Hide();
         }
 
         private void btClose_Click(object sender, EventArgs e)
@@ -47,6 +49,7 @@ namespace Music
             pNewSongs.Hide();
             pHomeFavorites.Hide();
             pControlPanel.Hide();
+            pRaports.Hide();
             pPlaylists.Show();
             dgvPlaylists.Hide();
             dgvPlaylistsSongs.Show();
@@ -66,6 +69,7 @@ namespace Music
             pNewSongs.Hide();
             pHomeFavorites.Hide();
             pControlPanel.Hide();
+            pRaports.Hide();
             pPlaylists.Show();
             dgvPlaylists.Show();
             dgvPlaylistsSongs.Hide();
@@ -87,12 +91,8 @@ namespace Music
             pHomeFavorites.Show();
             pControlPanel.Hide();
             pPlaylists.Hide();
-
-            using (var dataBaseContext = new DataBaseContext())
-            {
-                var musicPlaylist = dataBaseContext.AllMusic.FromSql($"SELECT AllMusic.* FROM AllMusic JOIN Playlist_Music ON AllMusic.id = Playlist_Music.IdMusic JOIN Playlists ON Playlist_Music.IdPlaylist = Playlists.Id JOIN Users ON Playlists.IdUser = Users.Id WHERE Playlists.Denumirea = 'Favorites' AND Users.Nume = {userName}").ToList();
-                dgvHomeFavorites.DataSource = musicPlaylist;
-            }
+            pRaports.Hide();
+            dgvHomeFavorites.DataSource = allMusicController.GetHomeFavorites(userName);
             dgvHomeFavorites.ClearSelection();
         }
         private void btMusic_Click(object sender, EventArgs e)
@@ -102,6 +102,7 @@ namespace Music
             pPlaylists.Hide();
             pControlPanel.Hide();
             pMusic.Show();
+            pRaports.Hide();
             dgvMusicAlbum.Hide();
             dgvMusicArtist.Hide();
             dgvMusicName.Hide();
@@ -163,13 +164,14 @@ namespace Music
             pMusic.Hide();
             pControlPanel.Hide();
             btControlPanel.Hide();
+            pRaports.Hide();
 
             Users user = usersContoller.GetUserByName(userName);
             userId = user.Id;
             dgvAllMusic.DataSource = allMusicController.GetAllMusicsSorted();
             dgvNewSongs.DataSource = allMusicController.GetRandomMusics();
-            dgvHomeFavorites.DataSource = allMusicController.GetHomeFavorites(userName);            
-            if (user.Rol == "admin") btControlPanel.Visible = true;    
+            dgvHomeFavorites.DataSource = allMusicController.GetHomeFavorites(userName);
+            if (user.Rol == "admin") btControlPanel.Visible = true;
 
             dgvAllMusic.Columns[0].Visible = false;
             dgvAllMusic.Columns[6].Visible = false;
@@ -194,6 +196,7 @@ namespace Music
                     pHomeFavorites.Show();
                     pControlPanel.Hide();
                     pPlaylists.Hide();
+                    pRaports.Hide();
                     LoadInformation();
                 }
             }
@@ -205,6 +208,7 @@ namespace Music
             pNewSongs.Hide();
             pPlaylists.Hide();
             pMusic.Hide();
+            pRaports.Hide();
             pControlPanel.Show();
             if (isMusic) dgvControlPanel.DataSource = allMusicController.GetAllMusic();
             else dgvControlPanel.DataSource = usersContoller.GetAllUsers();
@@ -215,6 +219,8 @@ namespace Music
             tbx4.Text = "";
             tbx5.Text = "";
             tbx6.Text = "";
+            btControlsMusic.Enabled = false;
+            btControlsUsers.Enabled = true;
         }
         private void btControlsMusic_Click(object sender, EventArgs e)
         {
@@ -225,7 +231,7 @@ namespace Music
             tbx1.PlaceholderText = "Denumirea:";
             tbx2.PlaceholderText = "Grupa:";
             tbx3.PlaceholderText = "Album:";
-            dgvControlPanel.DataSource = usersContoller.GetAllUsers();
+            dgvControlPanel.DataSource = allMusicController.GetAllMusic();
             dgvControlPanel.ClearSelection();
             tbx1.Text = "";
             tbx2.Text = "";
@@ -233,6 +239,8 @@ namespace Music
             tbx4.Text = "";
             tbx5.Text = "";
             tbx6.Text = "";
+            btControlsMusic.Enabled = false;
+            btControlsUsers.Enabled = true;
         }
         private void btControlsUsers_Click(object sender, EventArgs e)
         {
@@ -248,59 +256,69 @@ namespace Music
             tbx1.Text = "";
             tbx2.Text = "";
             tbx3.Text = "";
+            btControlsMusic.Enabled = true;
+            btControlsUsers.Enabled = false;
         }
         private void btAdd_Click(object sender, EventArgs e)
         {
-            if (isMusic)
+            var confirmation = MessageBox.Show("Are you sure to add this?", "Confirm Add", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (confirmation == DialogResult.Yes)
             {
-                AllMusic music = new AllMusic()
+                if (isMusic)
                 {
-                    Id = allMusicController.GetLastMusic().Id + 1,
-                    Denumirea = tbx1.Text,
-                    Grupa = tbx2.Text,
-                    Album = tbx3.Text,
-                    Gen = tbx4.Text,
-                    An = Convert.ToInt32(tbx5.Text),
-                    NumDeAscultari = Convert.ToInt32(tbx6.Text)
-                };
-                allMusicController.AddMusic(music);
-                dgvControlPanel.DataSource = allMusicController.GetAllMusic();
-            }
-            else
-            {
-                Users users = new Users()
+                    AllMusic music = new AllMusic()
+                    {
+                        Id = allMusicController.GetLastMusic().Id + 1,
+                        Denumirea = tbx1.Text,
+                        Grupa = tbx2.Text,
+                        Album = tbx3.Text,
+                        Gen = tbx4.Text,
+                        An = Convert.ToInt32(tbx5.Text),
+                        NumDeAscultari = Convert.ToInt32(tbx6.Text)
+                    };
+                    allMusicController.AddMusic(music);
+                    dgvControlPanel.DataSource = allMusicController.GetAllMusic();
+                }
+                else
                 {
-                    Id = usersContoller.GetLastUser().Id + 1,
-                    Nume = tbx1.Text,
-                    Parola = tbx2.Text,
-                    Rol = tbx3.Text,
-                };
-                usersContoller.AddUser(users);
-                dgvControlPanel.DataSource = usersContoller.GetAllUsers();
+                    Users users = new Users()
+                    {
+                        Id = usersContoller.GetLastUser().Id + 1,
+                        Nume = tbx1.Text,
+                        Parola = tbx2.Text,
+                        Rol = tbx3.Text,
+                    };
+                    usersContoller.AddUser(users);
+                    dgvControlPanel.DataSource = usersContoller.GetAllUsers();
+                }
+                dgvControlPanel.ClearSelection();
             }
-            dgvControlPanel.ClearSelection();
         }
         private void btDelete_Click(object sender, EventArgs e)
         {
-            if (dgvControlPanel.SelectedRows.Count > 0)
+            var confirmation = MessageBox.Show("Are you sure to delete this?", "Confirm Delete", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (confirmation == DialogResult.Yes)
             {
-                var row = dgvControlPanel.SelectedRows[0];
-                int id = (int)row.Cells["Id"].Value;
-                using (var dataBaseContext = new DataBaseContext())
+                if (dgvControlPanel.SelectedRows.Count > 0)
                 {
-                    if (isMusic)
+                    var row = dgvControlPanel.SelectedRows[0];
+                    int id = (int)row.Cells["Id"].Value;
+                    using (var dataBaseContext = new DataBaseContext())
                     {
-                        AllMusic music = allMusicController.GetMusicById(id);
-                        if (music != null)   allMusicController.DeleteMusic(music);
-                        dgvControlPanel.DataSource = allMusicController.GetAllMusic();
+                        if (isMusic)
+                        {
+                            AllMusic music = allMusicController.GetMusicById(id);
+                            if (music != null) allMusicController.DeleteMusic(music);
+                            dgvControlPanel.DataSource = allMusicController.GetAllMusic();
+                        }
+                        else
+                        {
+                            Users users = usersContoller.GetUserById(id);
+                            if (users != null) usersContoller.DeleteUser(users);
+                            dgvControlPanel.DataSource = usersContoller.GetAllUsers();
+                        }
+                        dgvControlPanel.ClearSelection();
                     }
-                    else
-                    {
-                        Users users = usersContoller.GetUserById(id);
-                        if (users != null)  usersContoller.DeleteUser(users);
-                        dgvControlPanel.DataSource = usersContoller.GetAllUsers();
-                    }
-                    dgvControlPanel.ClearSelection();
                 }
             }
         }
@@ -318,6 +336,8 @@ namespace Music
                     tbx5.Text = row.Cells[5].Value.ToString();
                     tbx6.Text = row.Cells[6].Value.ToString();
                 }
+                btModify.Enabled = true;
+                btDelete.Enabled = true;
             }
             else
             {
@@ -327,23 +347,29 @@ namespace Music
                 tbx4.Text = "";
                 tbx5.Text = "";
                 tbx6.Text = "";
+                btModify.Enabled = false;
+                btDelete.Enabled = false;
             }
         }
         private void btModify_Click(object sender, EventArgs e)
         {
-            var row = dgvControlPanel.SelectedRows[0];
-            int id = (int)row.Cells["Id"].Value;
-            if (isMusic)
+            var confirmation = MessageBox.Show("Are you sure to modify this?", "Confirm Modify", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (confirmation == DialogResult.Yes)
             {
-                allMusicController.ModifyMusic(id, tbx1.Text, tbx2.Text, tbx3.Text, tbx4.Text, Convert.ToInt32(tbx5.Text), Convert.ToInt32(tbx6.Text));
-                dgvControlPanel.DataSource = allMusicController.GetAllMusic();
+                var row = dgvControlPanel.SelectedRows[0];
+                int id = (int)row.Cells["Id"].Value;
+                if (isMusic)
+                {
+                    allMusicController.ModifyMusic(id, tbx1.Text, tbx2.Text, tbx3.Text, tbx4.Text, Convert.ToInt32(tbx5.Text), Convert.ToInt32(tbx6.Text));
+                    dgvControlPanel.DataSource = allMusicController.GetAllMusic();
+                }
+                else
+                {
+                    usersContoller.ModifyUser(id, tbx1.Text, tbx2.Text, tbx3.Text);
+                    dgvControlPanel.DataSource = usersContoller.GetAllUsers();
+                }
+                dgvControlPanel.ClearSelection();
             }
-            else
-            {
-                usersContoller.ModifyUser(id, tbx1.Text, tbx2.Text, tbx3.Text);
-                dgvControlPanel.DataSource = usersContoller.GetAllUsers();
-            }
-            dgvControlPanel.ClearSelection();
         }
         private void dgvPlaylists_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
@@ -366,10 +392,14 @@ namespace Music
             {
                 if (playlistName.ShowDialog() == DialogResult.OK)
                 {
-                    playlistsController.AddPlaylist(playlistName.playlistName, userId); 
-                    dgvPlaylists.DataSource = playlistsNumOfSongsController.GetPlaylistsNumOfSongs(userId);
-                    dgvPlaylists.Columns[0].Visible = false;
-                    dgvPlaylists.ClearSelection();
+                    var confirmation = MessageBox.Show("Are you sure to add this playlist?", "Confirm Add", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                    if (confirmation == DialogResult.Yes)
+                    {
+                        playlistsController.AddPlaylist(playlistName.playlistName, userId);
+                        dgvPlaylists.DataSource = playlistsNumOfSongsController.GetPlaylistsNumOfSongs(userId);
+                        dgvPlaylists.Columns[0].Visible = false;
+                        dgvPlaylists.ClearSelection();
+                    }
                 }
             }
         }
@@ -377,13 +407,17 @@ namespace Music
         {
             if (dgvPlaylists.SelectedRows.Count > 0)
             {
-                var row = dgvPlaylists.SelectedRows[0];
-                int id = (int)row.Cells["Id"].Value;
-                using (var dataBaseContext = new DataBaseContext())
+                var confirmation = MessageBox.Show("Are you sure to delete this playlist?", "Confirm Delete", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                if (confirmation == DialogResult.Yes)
                 {
-                    playlistsController.DeletePlaylist(id);
-                    dgvPlaylists.DataSource = playlistsNumOfSongsController.GetPlaylistsNumOfSongs(userId); 
-                    dgvPlaylists.ClearSelection();
+                    var row = dgvPlaylists.SelectedRows[0];
+                    int id = (int)row.Cells["Id"].Value;
+                    using (var dataBaseContext = new DataBaseContext())
+                    {
+                        playlistsController.DeletePlaylist(id);
+                        dgvPlaylists.DataSource = playlistsNumOfSongsController.GetPlaylistsNumOfSongs(userId);
+                        dgvPlaylists.ClearSelection();
+                    }
                 }
             }
         }
@@ -393,14 +427,19 @@ namespace Music
             {
                 using (PlaylistName playlistName = new PlaylistName())
                 {
+                    var row = dgvPlaylists.SelectedRows[0];
                     if (playlistName.ShowDialog() == DialogResult.OK)
                     {
-                        var row = dgvPlaylists.SelectedRows[0];
-                        int id = (int)row.Cells["Id"].Value;
-                        playlistsController.ModifyPlaylist(userId, playlistName.playlistName);
-                        dgvPlaylists.DataSource = playlistsNumOfSongsController.GetPlaylistsNumOfSongs(userId); 
-                        dgvControlPanel.ClearSelection();
+                        var confirmation = MessageBox.Show("Are you sure to modify this name of playlist?", "Confirm Modify", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                        if (confirmation == DialogResult.Yes)
+                        {
+                            Debug.WriteLine(playlistName.playlistName);
+                            playlistsController.ModifyPlaylist((int)row.Cells["Id"].Value, playlistName.playlistName);
+                            dgvPlaylists.DataSource = playlistsNumOfSongsController.GetPlaylistsNumOfSongs(userId);
+                            dgvControlPanel.ClearSelection();
+                        }
                     }
+
                 }
             }
         }
@@ -412,13 +451,155 @@ namespace Music
         {
             if (dgvPlaylistsSongs.SelectedRows.Count > 0)
             {
-                var row = dgvPlaylistsSongs.SelectedRows[0];
-                int id = (int)row.Cells["Id"].Value;
-                row = dgvPlaylists.SelectedRows[0];
-                string denumirea = (string)row.Cells["Denumirea"].Value;
-                playlistMusicController.DeletePlaylistMusic(id);
-                dgvPlaylistsSongs.DataSource = musicInPlaylistsController.GetPlaylistSongs(denumirea, userId);
-                dgvPlaylistsSongs.ClearSelection();
+                var confirmation = MessageBox.Show("Are you sure to delete this song from the playlist?", "Confirm Deletion", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                if (confirmation == DialogResult.Yes)
+                {
+                    var row = dgvPlaylistsSongs.SelectedRows[0];
+                    int id = (int)row.Cells["Id"].Value;
+                    row = dgvPlaylists.SelectedRows[0];
+                    string denumirea = (string)row.Cells["Denumirea"].Value;
+                    playlistMusicController.DeletePlaylistMusic(id);
+                    dgvPlaylistsSongs.DataSource = musicInPlaylistsController.GetPlaylistSongs(denumirea, userId);
+                    dgvPlaylistsSongs.ClearSelection();
+                }
+            }
+        }
+        private void guna2Button1_Click_1(object sender, EventArgs e)
+        {
+            pMusic.Hide();
+            pNewSongs.Hide();
+            pHomeFavorites.Hide();
+            pControlPanel.Hide();
+            pRaports.Show();
+            pPlaylists.Hide();
+            guna2ComboBox3.Hide();
+            using (DataBaseContext dataBaseContext = new DataBaseContext())
+            {
+                dgvRaports.DataSource = dataBaseContext.AllMusic.FromSqlRaw($"SELECT * FROM AllMusic ORDER BY Gen DESC").ToList();
+            }
+            dgvRaports.Columns[0].Visible = false;
+        }
+        private void guna2ComboBox2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            string column = "";
+            if (guna2ComboBox2.SelectedIndex == 0)
+            {
+                column = "Gen";
+                guna2ComboBox3.Show();
+            }
+            if (guna2ComboBox2.SelectedIndex == 1)
+            {
+                column = "An";
+                guna2ComboBox3.Hide();
+            }
+            if (guna2ComboBox2.SelectedIndex == 2)
+            {
+                column = "NumDeAscultari";
+                guna2ComboBox3.Hide();
+            }
+            using (DataBaseContext dataBaseContext = new DataBaseContext())
+            {
+                dgvRaports.DataSource = dataBaseContext.AllMusic
+                                        .OrderByDescending(m => EF.Property<object>(m, column))
+                                        .ToList();
+                if (guna2ComboBox2.SelectedIndex == 0)
+                {
+                    column = "Gen";
+                    guna2ComboBox3.Show();
+                    var genres = dataBaseContext.AllMusic
+                                    .GroupBy(m => m.Gen)
+                                    .Select(g => g.Key)
+                                    .OrderByDescending(g => g)
+                                    .ToList();
+                    guna2ComboBox3.DataSource = genres;
+                    string selectedGenre = guna2ComboBox3.Items[0].ToString();
+                    Debug.WriteLine(selectedGenre);
+                    var filteredSongs = dataBaseContext.AllMusic
+                                    .Where(m => m.Gen == selectedGenre)
+                                    .OrderByDescending(m => m.Gen)
+                                    .ToList();
+                    dgvRaports.DataSource = filteredSongs;
+                }
+            }
+        }
+        private void guna2ComboBox3_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            string selectedGenre = guna2ComboBox3.SelectedItem.ToString();
+
+            using (DataBaseContext dataBaseContext = new DataBaseContext())
+            {
+                var filteredSongs = dataBaseContext.AllMusic
+                                    .Where(m => m.Gen == selectedGenre)
+                                    .OrderByDescending(m => m.Gen)
+                                    .ToList();
+
+                dgvRaports.DataSource = filteredSongs;
+            }
+        }
+        private void dgvPlaylists_SelectionChanged(object sender, EventArgs e)
+        {
+            if (dgvPlaylists.SelectedCells.Count > 0)
+            {
+                var row = dgvPlaylists.SelectedRows[0];
+                Debug.WriteLine(row.Cells["Denumirea"].Value.ToString());
+                if (row.Cells["Denumirea"].Value.ToString() != "Favorites")
+                {
+                    btModifyPlaylist.Enabled = true;
+                    btDeletePlaylist.Enabled = true;
+                }
+                else
+                {
+                    btModifyPlaylist.Enabled = false;
+                    btDeletePlaylist.Enabled = false;
+                }
+            }
+        }
+
+        private void dgvControlPanel_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void tbxControls_TextChanged(object sender, EventArgs e)
+        {
+            if (isMusic)
+            {
+                bool isInts = false;
+                try
+                {
+                    int num = Convert.ToInt32(tbx5.Text);
+                    num = Convert.ToInt32(tbx6.Text);
+                    isInts = true;
+                }
+                catch { isInts = false; }
+                if (tbx1.Text != "" && tbx2.Text != "" && tbx3.Text != "" && tbx4.Text != "" && tbx5.Text != "" && tbx6.Text != "" && isInts && Convert.ToInt32(tbx5.Text) > 0 && Convert.ToInt32(tbx6.Text) >= 0)
+                {
+                    btAdd.Enabled = true;
+                    if(dgvControlPanel.SelectedRows.Count > 0)
+                    {
+                        btModify.Enabled = true;
+                    }
+                    else
+                    {
+                        btModify.Enabled= false;
+                    }
+                }
+                else
+                {
+                    btAdd.Enabled = false;
+                    btModify.Enabled = false;
+                }
+            }
+            else
+            {
+                if (tbx1.Text != "" && tbx2.Text != "" && tbx3.Text != "")
+                {
+                    btAdd.Enabled = true;
+                }
+                else
+                {
+                    btAdd.Enabled = false;
+                }
             }
         }
     }

@@ -94,7 +94,7 @@ namespace Music.Controllers
         {
             using (var dataBaseContext = new DataBaseContext())
             {
-                AllMusic music = GetMusicById(id);
+                AllMusic music = dataBaseContext.AllMusic.FirstOrDefault(music => music.Id == id);
                 if (music != null)
                 {
                     music.Denumirea = denumirea;
