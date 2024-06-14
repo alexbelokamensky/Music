@@ -17,5 +17,6 @@ namespace Music.Model
         public string? Gen {  get; set; }
         public int An {  get; set; }
         public int NumDeAscultari { get; set; }
+        public string? DataAdd { get; set; }
     }
 }

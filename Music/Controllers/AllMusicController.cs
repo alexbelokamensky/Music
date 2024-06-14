@@ -12,11 +12,11 @@ namespace Music.Controllers
 {
     public class AllMusicController
     {
-        public List<AllMusic> GetAllMusicsSorted()
+        public List<AllMusic> GetAllMusicsSorted(string column, string type)
         {
             using (var dataBaseContext = new DataBaseContext())
             {
-                List<AllMusic> allMusic = dataBaseContext.AllMusic.FromSql($"SELECT * FROM AllMusic ORDER BY Denumirea ASC").ToList();
+                List<AllMusic> allMusic = dataBaseContext.AllMusic.FromSqlRaw($"SELECT * FROM AllMusic ORDER BY {column} {type}").ToList();
                 return allMusic;
             }
         }
@@ -26,7 +26,7 @@ namespace Music.Controllers
             using (var dataBaseContext = new DataBaseContext())
             {
                 List<AllMusic> randomMusic = new List<AllMusic>();
-                for (int i = 0; i < 6; i++) randomMusic.Add(GetAllMusicsSorted()[random.Next(1, GetAllMusicsSorted().Count)]);
+                for (int i = 0; i < 6; i++) randomMusic.Add(GetAllMusicsSorted("Denumirea", "ASC")[random.Next(1, GetAllMusicsSorted("Denumirea", "ASC").Count)]);
                 return randomMusic;
             }
         }

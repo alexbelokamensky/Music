@@ -46,76 +46,76 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges14 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges15 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges16 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges23 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges24 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges35 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges36 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges17 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges18 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges19 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges20 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges21 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges22 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges23 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges24 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges25 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges26 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges27 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges28 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges29 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges30 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges31 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges32 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle4 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle5 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle6 = new DataGridViewCellStyle();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges21 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges22 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges33 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges34 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             DataGridViewCellStyle dataGridViewCellStyle7 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle8 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle9 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle10 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle11 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle12 = new DataGridViewCellStyle();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges27 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges28 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges39 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges40 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             DataGridViewCellStyle dataGridViewCellStyle13 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle14 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle15 = new DataGridViewCellStyle();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges25 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges26 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges39 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges40 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges29 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges30 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges31 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges32 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges33 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges34 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges35 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges36 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            DataGridViewCellStyle dataGridViewCellStyle19 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle20 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle21 = new DataGridViewCellStyle();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges37 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges38 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            DataGridViewCellStyle dataGridViewCellStyle16 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle17 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle18 = new DataGridViewCellStyle();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges51 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges52 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges41 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges42 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges43 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges44 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges45 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges46 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges47 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges48 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges49 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges50 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            DataGridViewCellStyle dataGridViewCellStyle16 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle17 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle18 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle19 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle20 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle21 = new DataGridViewCellStyle();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges53 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges54 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges55 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges56 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             DataGridViewCellStyle dataGridViewCellStyle22 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle23 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle24 = new DataGridViewCellStyle();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges47 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges48 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges45 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges46 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges81 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges82 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges57 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges58 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges59 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges60 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges61 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges62 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges63 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges64 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges65 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges66 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges67 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges68 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges57 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges58 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges93 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges94 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges69 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges70 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges71 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
@@ -126,19 +126,31 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges76 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges77 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges78 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges79 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges80 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges81 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges82 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges83 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges84 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges85 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges86 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges87 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges88 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges89 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges90 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             DataGridViewCellStyle dataGridViewCellStyle28 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle29 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle30 = new DataGridViewCellStyle();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges79 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges80 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges55 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges56 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges49 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges50 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges51 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges52 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges53 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges54 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges91 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges92 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges67 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges68 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges61 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges62 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges63 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges64 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges65 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges66 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             DataGridViewCellStyle dataGridViewCellStyle25 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle26 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle27 = new DataGridViewCellStyle();
@@ -152,6 +164,12 @@
             btFavorites = new Guna.UI2.WinForms.Guna2Button();
             btUser = new Guna.UI2.WinForms.Guna2Button();
             pMusic = new Guna.UI2.WinForms.Guna2Panel();
+            guna2Button7 = new Guna.UI2.WinForms.Guna2Button();
+            guna2Button6 = new Guna.UI2.WinForms.Guna2Button();
+            guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
+            guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
+            guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
+            guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             guna2ComboBox1 = new Guna.UI2.WinForms.Guna2ComboBox();
             btAddToPlaylist = new Guna.UI2.WinForms.Guna2Button();
             guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -172,9 +190,9 @@
             btModifyPlaylist = new Guna.UI2.WinForms.Guna2Button();
             label3 = new Label();
             guna2PictureBox3 = new Guna.UI2.WinForms.Guna2PictureBox();
-            dgvPlaylists = new Guna.UI2.WinForms.Guna2DataGridView();
             btDeleteFromPlaylist = new Guna.UI2.WinForms.Guna2Button();
             dgvPlaylistsSongs = new Guna.UI2.WinForms.Guna2DataGridView();
+            dgvPlaylists = new Guna.UI2.WinForms.Guna2DataGridView();
             guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
             pNewSongs = new Guna.UI2.WinForms.Guna2Panel();
             dgvNewSongs = new Guna.UI2.WinForms.Guna2DataGridView();
@@ -215,8 +233,8 @@
             ((System.ComponentModel.ISupportInitialize)guna2PictureBox1).BeginInit();
             pPlaylists.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)guna2PictureBox3).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)dgvPlaylists).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dgvPlaylistsSongs).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dgvPlaylists).BeginInit();
             ((System.ComponentModel.ISupportInitialize)guna2PictureBox2).BeginInit();
             pNewSongs.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgvNewSongs).BeginInit();
@@ -262,7 +280,7 @@
             guna2Button1.HoverState.ForeColor = SystemColors.ScrollBar;
             guna2Button1.Image = (Image)resources.GetObject("guna2Button1.Image");
             guna2Button1.ImageAlign = HorizontalAlignment.Left;
-            guna2Button1.ImageSize = new Size(50, 50);
+            guna2Button1.ImageSize = new Size(45, 45);
             guna2Button1.Location = new Point(4, 306);
             guna2Button1.Name = "guna2Button1";
             guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges2;
@@ -270,7 +288,7 @@
             guna2Button1.TabIndex = 22;
             guna2Button1.Text = "Raports";
             guna2Button1.TextAlign = HorizontalAlignment.Left;
-            guna2Button1.Click += guna2Button1_Click_1;
+            guna2Button1.Click += btRaports_Click;
             // 
             // btControlPanel
             // 
@@ -287,7 +305,7 @@
             btControlPanel.HoverState.ForeColor = SystemColors.ScrollBar;
             btControlPanel.Image = (Image)resources.GetObject("btControlPanel.Image");
             btControlPanel.ImageAlign = HorizontalAlignment.Left;
-            btControlPanel.ImageSize = new Size(60, 60);
+            btControlPanel.ImageSize = new Size(50, 50);
             btControlPanel.Location = new Point(4, 616);
             btControlPanel.Name = "btControlPanel";
             btControlPanel.ShadowDecoration.CustomizableEdges = customizableEdges4;
@@ -440,6 +458,12 @@
             // pMusic
             // 
             pMusic.BorderRadius = 30;
+            pMusic.Controls.Add(guna2Button7);
+            pMusic.Controls.Add(guna2Button6);
+            pMusic.Controls.Add(guna2Button5);
+            pMusic.Controls.Add(guna2Button4);
+            pMusic.Controls.Add(guna2Button3);
+            pMusic.Controls.Add(guna2Button2);
             pMusic.Controls.Add(guna2ComboBox1);
             pMusic.Controls.Add(btAddToPlaylist);
             pMusic.Controls.Add(guna2HtmlLabel3);
@@ -450,20 +474,152 @@
             pMusic.Controls.Add(tbxFind);
             pMusic.Controls.Add(dgvMusicName);
             pMusic.Controls.Add(dgvAllMusic);
-            pMusic.CustomizableEdges = customizableEdges23;
+            pMusic.CustomizableEdges = customizableEdges35;
             pMusic.FillColor = Color.FromArgb(15, 15, 15);
             pMusic.Location = new Point(262, 40);
             pMusic.Name = "pMusic";
-            pMusic.ShadowDecoration.CustomizableEdges = customizableEdges24;
+            pMusic.ShadowDecoration.CustomizableEdges = customizableEdges36;
             pMusic.Size = new Size(1067, 696);
             pMusic.TabIndex = 10;
             pMusic.Visible = false;
+            // 
+            // guna2Button7
+            // 
+            guna2Button7.BackColor = Color.FromArgb(15, 15, 15);
+            guna2Button7.BorderRadius = 20;
+            guna2Button7.CustomizableEdges = customizableEdges17;
+            guna2Button7.DisabledState.BorderColor = Color.DarkGray;
+            guna2Button7.DisabledState.CustomBorderColor = Color.DarkGray;
+            guna2Button7.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            guna2Button7.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            guna2Button7.FillColor = Color.FromArgb(15, 15, 15);
+            guna2Button7.Font = new Font("Stencil", 12F, FontStyle.Bold | FontStyle.Italic);
+            guna2Button7.ForeColor = Color.White;
+            guna2Button7.HoverState.FillColor = Color.FromArgb(26, 26, 26);
+            guna2Button7.HoverState.ForeColor = SystemColors.ScrollBar;
+            guna2Button7.Location = new Point(880, 88);
+            guna2Button7.Name = "guna2Button7";
+            guna2Button7.ShadowDecoration.CustomizableEdges = customizableEdges18;
+            guna2Button7.Size = new Size(150, 45);
+            guna2Button7.TabIndex = 26;
+            guna2Button7.Text = "Year";
+            guna2Button7.Click += btSortDataAdd_Click;
+            // 
+            // guna2Button6
+            // 
+            guna2Button6.BackColor = Color.FromArgb(15, 15, 15);
+            guna2Button6.BorderRadius = 20;
+            guna2Button6.CustomizableEdges = customizableEdges19;
+            guna2Button6.DisabledState.BorderColor = Color.DarkGray;
+            guna2Button6.DisabledState.CustomBorderColor = Color.DarkGray;
+            guna2Button6.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            guna2Button6.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            guna2Button6.FillColor = Color.FromArgb(15, 15, 15);
+            guna2Button6.Font = new Font("Stencil", 12F, FontStyle.Bold | FontStyle.Italic);
+            guna2Button6.ForeColor = Color.White;
+            guna2Button6.HoverState.FillColor = Color.FromArgb(26, 26, 26);
+            guna2Button6.HoverState.ForeColor = SystemColors.ScrollBar;
+            guna2Button6.Location = new Point(710, 88);
+            guna2Button6.Name = "guna2Button6";
+            guna2Button6.ShadowDecoration.CustomizableEdges = customizableEdges20;
+            guna2Button6.Size = new Size(150, 45);
+            guna2Button6.TabIndex = 25;
+            guna2Button6.Text = "Year";
+            guna2Button6.Click += btSortAn_Click;
+            // 
+            // guna2Button5
+            // 
+            guna2Button5.BackColor = Color.FromArgb(15, 15, 15);
+            guna2Button5.BorderRadius = 20;
+            guna2Button5.CustomizableEdges = customizableEdges21;
+            guna2Button5.DisabledState.BorderColor = Color.DarkGray;
+            guna2Button5.DisabledState.CustomBorderColor = Color.DarkGray;
+            guna2Button5.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            guna2Button5.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            guna2Button5.FillColor = Color.FromArgb(15, 15, 15);
+            guna2Button5.Font = new Font("Stencil", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            guna2Button5.ForeColor = Color.White;
+            guna2Button5.HoverState.FillColor = Color.FromArgb(26, 26, 26);
+            guna2Button5.HoverState.ForeColor = SystemColors.ScrollBar;
+            guna2Button5.Location = new Point(540, 88);
+            guna2Button5.Name = "guna2Button5";
+            guna2Button5.ShadowDecoration.CustomizableEdges = customizableEdges22;
+            guna2Button5.Size = new Size(150, 45);
+            guna2Button5.TabIndex = 24;
+            guna2Button5.Text = "Genre";
+            guna2Button5.Click += btSortGen_Click;
+            // 
+            // guna2Button4
+            // 
+            guna2Button4.BackColor = Color.FromArgb(15, 15, 15);
+            guna2Button4.BorderRadius = 20;
+            guna2Button4.CustomizableEdges = customizableEdges23;
+            guna2Button4.DisabledState.BorderColor = Color.DarkGray;
+            guna2Button4.DisabledState.CustomBorderColor = Color.DarkGray;
+            guna2Button4.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            guna2Button4.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            guna2Button4.FillColor = Color.FromArgb(15, 15, 15);
+            guna2Button4.Font = new Font("Stencil", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            guna2Button4.ForeColor = Color.White;
+            guna2Button4.HoverState.FillColor = Color.FromArgb(26, 26, 26);
+            guna2Button4.HoverState.ForeColor = SystemColors.ScrollBar;
+            guna2Button4.Location = new Point(360, 88);
+            guna2Button4.Name = "guna2Button4";
+            guna2Button4.ShadowDecoration.CustomizableEdges = customizableEdges24;
+            guna2Button4.Size = new Size(150, 45);
+            guna2Button4.TabIndex = 23;
+            guna2Button4.Text = "Album";
+            guna2Button4.Click += btSortAlbum_Click;
+            // 
+            // guna2Button3
+            // 
+            guna2Button3.BackColor = Color.FromArgb(15, 15, 15);
+            guna2Button3.BorderRadius = 20;
+            guna2Button3.CustomizableEdges = customizableEdges25;
+            guna2Button3.DisabledState.BorderColor = Color.DarkGray;
+            guna2Button3.DisabledState.CustomBorderColor = Color.DarkGray;
+            guna2Button3.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            guna2Button3.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            guna2Button3.FillColor = Color.FromArgb(15, 15, 15);
+            guna2Button3.Font = new Font("Stencil", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            guna2Button3.ForeColor = Color.White;
+            guna2Button3.HoverState.FillColor = Color.FromArgb(26, 26, 26);
+            guna2Button3.HoverState.ForeColor = SystemColors.ScrollBar;
+            guna2Button3.Location = new Point(190, 88);
+            guna2Button3.Name = "guna2Button3";
+            guna2Button3.ShadowDecoration.CustomizableEdges = customizableEdges26;
+            guna2Button3.Size = new Size(150, 45);
+            guna2Button3.TabIndex = 22;
+            guna2Button3.Text = "Artist";
+            guna2Button3.Click += btSortGrupa_Click;
+            // 
+            // guna2Button2
+            // 
+            guna2Button2.BackColor = Color.FromArgb(15, 15, 15);
+            guna2Button2.BorderRadius = 20;
+            guna2Button2.CustomizableEdges = customizableEdges27;
+            guna2Button2.DisabledState.BorderColor = Color.DarkGray;
+            guna2Button2.DisabledState.CustomBorderColor = Color.DarkGray;
+            guna2Button2.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            guna2Button2.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            guna2Button2.FillColor = Color.FromArgb(15, 15, 15);
+            guna2Button2.Font = new Font("Stencil", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            guna2Button2.ForeColor = Color.White;
+            guna2Button2.HoverState.FillColor = Color.FromArgb(26, 26, 26);
+            guna2Button2.HoverState.ForeColor = SystemColors.ScrollBar;
+            guna2Button2.Location = new Point(23, 88);
+            guna2Button2.Name = "guna2Button2";
+            guna2Button2.ShadowDecoration.CustomizableEdges = customizableEdges28;
+            guna2Button2.Size = new Size(150, 45);
+            guna2Button2.TabIndex = 17;
+            guna2Button2.Text = "Name";
+            guna2Button2.Click += btSortDenumirea_Click;
             // 
             // guna2ComboBox1
             // 
             guna2ComboBox1.BackColor = Color.Transparent;
             guna2ComboBox1.BorderRadius = 15;
-            guna2ComboBox1.CustomizableEdges = customizableEdges17;
+            guna2ComboBox1.CustomizableEdges = customizableEdges29;
             guna2ComboBox1.DrawMode = DrawMode.OwnerDrawFixed;
             guna2ComboBox1.DropDownStyle = ComboBoxStyle.DropDownList;
             guna2ComboBox1.FocusedColor = Color.FromArgb(94, 148, 255);
@@ -473,7 +629,7 @@
             guna2ComboBox1.ItemHeight = 30;
             guna2ComboBox1.Location = new Point(536, 28);
             guna2ComboBox1.Name = "guna2ComboBox1";
-            guna2ComboBox1.ShadowDecoration.CustomizableEdges = customizableEdges18;
+            guna2ComboBox1.ShadowDecoration.CustomizableEdges = customizableEdges30;
             guna2ComboBox1.Size = new Size(252, 36);
             guna2ComboBox1.TabIndex = 16;
             // 
@@ -481,10 +637,10 @@
             // 
             btAddToPlaylist.BackColor = Color.FromArgb(15, 15, 15);
             btAddToPlaylist.BorderRadius = 10;
-            btAddToPlaylist.CustomizableEdges = customizableEdges19;
-            btAddToPlaylist.DisabledState.BorderColor = Color.DarkGray;
-            btAddToPlaylist.DisabledState.CustomBorderColor = Color.DarkGray;
-            btAddToPlaylist.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btAddToPlaylist.CustomizableEdges = customizableEdges31;
+            btAddToPlaylist.DisabledState.BorderColor = Color.FromArgb(15, 15, 15);
+            btAddToPlaylist.DisabledState.CustomBorderColor = Color.FromArgb(15, 15, 15);
+            btAddToPlaylist.DisabledState.FillColor = Color.FromArgb(15, 15, 15);
             btAddToPlaylist.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
             btAddToPlaylist.FillColor = Color.FromArgb(15, 15, 15);
             btAddToPlaylist.Font = new Font("Stencil", 13.2000008F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
@@ -493,7 +649,7 @@
             btAddToPlaylist.HoverState.ForeColor = SystemColors.ScrollBar;
             btAddToPlaylist.Location = new Point(809, 22);
             btAddToPlaylist.Name = "btAddToPlaylist";
-            btAddToPlaylist.ShadowDecoration.CustomizableEdges = customizableEdges20;
+            btAddToPlaylist.ShadowDecoration.CustomizableEdges = customizableEdges32;
             btAddToPlaylist.Size = new Size(238, 46);
             btAddToPlaylist.TabIndex = 15;
             btAddToPlaylist.Text = "Add To Playlist";
@@ -592,6 +748,7 @@
             dgvMusicAlbum.ThemeStyle.RowsStyle.Height = 30;
             dgvMusicAlbum.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(231, 229, 255);
             dgvMusicAlbum.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(71, 69, 94);
+            dgvMusicAlbum.SelectionChanged += dgvAllMusic_SelectionChanged;
             // 
             // dgvMusicArtist
             // 
@@ -653,13 +810,14 @@
             dgvMusicArtist.ThemeStyle.RowsStyle.Height = 30;
             dgvMusicArtist.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(231, 229, 255);
             dgvMusicArtist.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(71, 69, 94);
+            dgvMusicArtist.SelectionChanged += dgvAllMusic_SelectionChanged;
             // 
             // tbxFind
             // 
             tbxFind.BackColor = Color.FromArgb(15, 15, 15);
             tbxFind.BorderColor = Color.Transparent;
             tbxFind.BorderRadius = 20;
-            tbxFind.CustomizableEdges = customizableEdges21;
+            tbxFind.CustomizableEdges = customizableEdges33;
             tbxFind.DefaultText = "";
             tbxFind.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             tbxFind.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -676,7 +834,7 @@
             tbxFind.PlaceholderForeColor = Color.LightGray;
             tbxFind.PlaceholderText = "Find music";
             tbxFind.SelectedText = "";
-            tbxFind.ShadowDecoration.CustomizableEdges = customizableEdges22;
+            tbxFind.ShadowDecoration.CustomizableEdges = customizableEdges34;
             tbxFind.Size = new Size(437, 60);
             tbxFind.TabIndex = 8;
             tbxFind.TextChanged += tbxFind_TextChanged;
@@ -741,6 +899,7 @@
             dgvMusicName.ThemeStyle.RowsStyle.Height = 30;
             dgvMusicName.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(231, 229, 255);
             dgvMusicName.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(71, 69, 94);
+            dgvMusicName.SelectionChanged += dgvAllMusic_SelectionChanged;
             // 
             // dgvAllMusic
             // 
@@ -774,14 +933,14 @@
             dataGridViewCellStyle12.WrapMode = DataGridViewTriState.True;
             dgvAllMusic.DefaultCellStyle = dataGridViewCellStyle12;
             dgvAllMusic.GridColor = Color.FromArgb(231, 229, 255);
-            dgvAllMusic.Location = new Point(18, 100);
+            dgvAllMusic.Location = new Point(18, 144);
             dgvAllMusic.MultiSelect = false;
             dgvAllMusic.Name = "dgvAllMusic";
             dgvAllMusic.ReadOnly = true;
             dgvAllMusic.RowHeadersVisible = false;
             dgvAllMusic.RowHeadersWidth = 51;
             dgvAllMusic.RowTemplate.Height = 60;
-            dgvAllMusic.Size = new Size(1034, 570);
+            dgvAllMusic.Size = new Size(1034, 526);
             dgvAllMusic.TabIndex = 11;
             dgvAllMusic.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White;
             dgvAllMusic.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -804,6 +963,7 @@
             dgvAllMusic.ThemeStyle.RowsStyle.Height = 60;
             dgvAllMusic.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(231, 229, 255);
             dgvAllMusic.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(71, 69, 94);
+            dgvAllMusic.SelectionChanged += dgvAllMusic_SelectionChanged;
             // 
             // pHomeFavorites
             // 
@@ -811,11 +971,11 @@
             pHomeFavorites.Controls.Add(dgvHomeFavorites);
             pHomeFavorites.Controls.Add(label1);
             pHomeFavorites.Controls.Add(guna2PictureBox1);
-            pHomeFavorites.CustomizableEdges = customizableEdges27;
+            pHomeFavorites.CustomizableEdges = customizableEdges39;
             pHomeFavorites.FillColor = Color.FromArgb(15, 15, 15);
             pHomeFavorites.Location = new Point(263, 39);
             pHomeFavorites.Name = "pHomeFavorites";
-            pHomeFavorites.ShadowDecoration.CustomizableEdges = customizableEdges28;
+            pHomeFavorites.ShadowDecoration.CustomizableEdges = customizableEdges40;
             pHomeFavorites.Size = new Size(1063, 328);
             pHomeFavorites.TabIndex = 2;
             // 
@@ -896,12 +1056,12 @@
             // 
             guna2PictureBox1.BackColor = Color.Transparent;
             guna2PictureBox1.BorderRadius = 20;
-            guna2PictureBox1.CustomizableEdges = customizableEdges25;
+            guna2PictureBox1.CustomizableEdges = customizableEdges37;
             guna2PictureBox1.Image = (Image)resources.GetObject("guna2PictureBox1.Image");
             guna2PictureBox1.ImageRotate = 0F;
             guna2PictureBox1.Location = new Point(8, 8);
             guna2PictureBox1.Name = "guna2PictureBox1";
-            guna2PictureBox1.ShadowDecoration.CustomizableEdges = customizableEdges26;
+            guna2PictureBox1.ShadowDecoration.CustomizableEdges = customizableEdges38;
             guna2PictureBox1.Size = new Size(82, 84);
             guna2PictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             guna2PictureBox1.TabIndex = 3;
@@ -918,11 +1078,11 @@
             pPlaylists.Controls.Add(btDeleteFromPlaylist);
             pPlaylists.Controls.Add(dgvPlaylistsSongs);
             pPlaylists.Controls.Add(dgvPlaylists);
-            pPlaylists.CustomizableEdges = customizableEdges39;
+            pPlaylists.CustomizableEdges = customizableEdges51;
             pPlaylists.FillColor = Color.FromArgb(15, 15, 15);
             pPlaylists.Location = new Point(262, 40);
             pPlaylists.Name = "pPlaylists";
-            pPlaylists.ShadowDecoration.CustomizableEdges = customizableEdges40;
+            pPlaylists.ShadowDecoration.CustomizableEdges = customizableEdges52;
             pPlaylists.Size = new Size(1064, 693);
             pPlaylists.TabIndex = 9;
             pPlaylists.Visible = false;
@@ -931,7 +1091,7 @@
             // 
             btAddPlaylist.BackColor = Color.FromArgb(15, 15, 15);
             btAddPlaylist.BorderRadius = 10;
-            btAddPlaylist.CustomizableEdges = customizableEdges29;
+            btAddPlaylist.CustomizableEdges = customizableEdges41;
             btAddPlaylist.DisabledState.BorderColor = Color.DarkGray;
             btAddPlaylist.DisabledState.CustomBorderColor = Color.DarkGray;
             btAddPlaylist.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -943,7 +1103,7 @@
             btAddPlaylist.HoverState.ForeColor = SystemColors.ScrollBar;
             btAddPlaylist.Location = new Point(596, 28);
             btAddPlaylist.Name = "btAddPlaylist";
-            btAddPlaylist.ShadowDecoration.CustomizableEdges = customizableEdges30;
+            btAddPlaylist.ShadowDecoration.CustomizableEdges = customizableEdges42;
             btAddPlaylist.Size = new Size(146, 50);
             btAddPlaylist.TabIndex = 11;
             btAddPlaylist.Text = "Add";
@@ -953,7 +1113,7 @@
             // 
             btDeletePlaylist.BackColor = Color.FromArgb(15, 15, 15);
             btDeletePlaylist.BorderRadius = 10;
-            btDeletePlaylist.CustomizableEdges = customizableEdges31;
+            btDeletePlaylist.CustomizableEdges = customizableEdges43;
             btDeletePlaylist.DisabledState.BorderColor = Color.FromArgb(15, 15, 15);
             btDeletePlaylist.DisabledState.CustomBorderColor = Color.FromArgb(15, 15, 15);
             btDeletePlaylist.DisabledState.FillColor = Color.FromArgb(15, 15, 15);
@@ -965,17 +1125,17 @@
             btDeletePlaylist.HoverState.ForeColor = SystemColors.ScrollBar;
             btDeletePlaylist.Location = new Point(906, 28);
             btDeletePlaylist.Name = "btDeletePlaylist";
-            btDeletePlaylist.ShadowDecoration.CustomizableEdges = customizableEdges32;
+            btDeletePlaylist.ShadowDecoration.CustomizableEdges = customizableEdges44;
             btDeletePlaylist.Size = new Size(146, 50);
             btDeletePlaylist.TabIndex = 10;
             btDeletePlaylist.Text = "Delete";
-            btDeletePlaylist.Click += guna2Button2_Click;
+            btDeletePlaylist.Click += btDeletePlaylist_Click;
             // 
             // btModifyPlaylist
             // 
             btModifyPlaylist.BackColor = Color.FromArgb(15, 15, 15);
             btModifyPlaylist.BorderRadius = 10;
-            btModifyPlaylist.CustomizableEdges = customizableEdges33;
+            btModifyPlaylist.CustomizableEdges = customizableEdges45;
             btModifyPlaylist.DisabledState.BorderColor = Color.FromArgb(15, 15, 15);
             btModifyPlaylist.DisabledState.CustomBorderColor = Color.FromArgb(15, 15, 15);
             btModifyPlaylist.DisabledState.FillColor = Color.FromArgb(15, 15, 15);
@@ -987,11 +1147,11 @@
             btModifyPlaylist.HoverState.ForeColor = SystemColors.ScrollBar;
             btModifyPlaylist.Location = new Point(751, 28);
             btModifyPlaylist.Name = "btModifyPlaylist";
-            btModifyPlaylist.ShadowDecoration.CustomizableEdges = customizableEdges34;
+            btModifyPlaylist.ShadowDecoration.CustomizableEdges = customizableEdges46;
             btModifyPlaylist.Size = new Size(146, 50);
             btModifyPlaylist.TabIndex = 9;
             btModifyPlaylist.Text = "Modify";
-            btModifyPlaylist.Click += guna2Button1_Click;
+            btModifyPlaylist.Click += btModifyPlaylisr;
             // 
             // label3
             // 
@@ -1009,85 +1169,22 @@
             // 
             guna2PictureBox3.BackColor = Color.Transparent;
             guna2PictureBox3.BorderRadius = 20;
-            guna2PictureBox3.CustomizableEdges = customizableEdges35;
+            guna2PictureBox3.CustomizableEdges = customizableEdges47;
             guna2PictureBox3.Image = (Image)resources.GetObject("guna2PictureBox3.Image");
             guna2PictureBox3.ImageRotate = 0F;
             guna2PictureBox3.Location = new Point(8, 8);
             guna2PictureBox3.Name = "guna2PictureBox3";
-            guna2PictureBox3.ShadowDecoration.CustomizableEdges = customizableEdges36;
+            guna2PictureBox3.ShadowDecoration.CustomizableEdges = customizableEdges48;
             guna2PictureBox3.Size = new Size(82, 84);
             guna2PictureBox3.SizeMode = PictureBoxSizeMode.Zoom;
             guna2PictureBox3.TabIndex = 3;
             guna2PictureBox3.TabStop = false;
             // 
-            // dgvPlaylists
-            // 
-            dgvPlaylists.AllowUserToAddRows = false;
-            dgvPlaylists.AllowUserToDeleteRows = false;
-            dgvPlaylists.AllowUserToResizeColumns = false;
-            dgvPlaylists.AllowUserToResizeRows = false;
-            dataGridViewCellStyle19.BackColor = Color.FromArgb(15, 15, 15);
-            dataGridViewCellStyle19.ForeColor = Color.White;
-            dgvPlaylists.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle19;
-            dgvPlaylists.BackgroundColor = Color.FromArgb(15, 15, 15);
-            dataGridViewCellStyle20.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle20.BackColor = Color.FromArgb(100, 88, 255);
-            dataGridViewCellStyle20.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            dataGridViewCellStyle20.ForeColor = Color.White;
-            dataGridViewCellStyle20.SelectionBackColor = SystemColors.Highlight;
-            dataGridViewCellStyle20.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle20.WrapMode = DataGridViewTriState.True;
-            dgvPlaylists.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle20;
-            dgvPlaylists.ColumnHeadersHeight = 4;
-            dgvPlaylists.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            dgvPlaylists.ColumnHeadersVisible = false;
-            dataGridViewCellStyle21.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle21.BackColor = Color.FromArgb(15, 15, 15);
-            dataGridViewCellStyle21.Font = new Font("Segoe UI", 11F);
-            dataGridViewCellStyle21.ForeColor = Color.White;
-            dataGridViewCellStyle21.SelectionBackColor = Color.FromArgb(231, 229, 255);
-            dataGridViewCellStyle21.SelectionForeColor = Color.FromArgb(71, 69, 94);
-            dataGridViewCellStyle21.WrapMode = DataGridViewTriState.False;
-            dgvPlaylists.DefaultCellStyle = dataGridViewCellStyle21;
-            dgvPlaylists.GridColor = Color.FromArgb(231, 229, 255);
-            dgvPlaylists.Location = new Point(16, 109);
-            dgvPlaylists.MultiSelect = false;
-            dgvPlaylists.Name = "dgvPlaylists";
-            dgvPlaylists.ReadOnly = true;
-            dgvPlaylists.RowHeadersVisible = false;
-            dgvPlaylists.RowHeadersWidth = 51;
-            dgvPlaylists.RowTemplate.Height = 30;
-            dgvPlaylists.Size = new Size(1036, 580);
-            dgvPlaylists.TabIndex = 7;
-            dgvPlaylists.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White;
-            dgvPlaylists.ThemeStyle.AlternatingRowsStyle.Font = null;
-            dgvPlaylists.ThemeStyle.AlternatingRowsStyle.ForeColor = Color.Empty;
-            dgvPlaylists.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = Color.Empty;
-            dgvPlaylists.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = Color.Empty;
-            dgvPlaylists.ThemeStyle.BackColor = Color.FromArgb(15, 15, 15);
-            dgvPlaylists.ThemeStyle.GridColor = Color.FromArgb(231, 229, 255);
-            dgvPlaylists.ThemeStyle.HeaderStyle.BackColor = Color.FromArgb(100, 88, 255);
-            dgvPlaylists.ThemeStyle.HeaderStyle.BorderStyle = DataGridViewHeaderBorderStyle.None;
-            dgvPlaylists.ThemeStyle.HeaderStyle.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            dgvPlaylists.ThemeStyle.HeaderStyle.ForeColor = Color.White;
-            dgvPlaylists.ThemeStyle.HeaderStyle.HeaightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            dgvPlaylists.ThemeStyle.HeaderStyle.Height = 4;
-            dgvPlaylists.ThemeStyle.ReadOnly = true;
-            dgvPlaylists.ThemeStyle.RowsStyle.BackColor = Color.White;
-            dgvPlaylists.ThemeStyle.RowsStyle.BorderStyle = DataGridViewCellBorderStyle.SingleHorizontal;
-            dgvPlaylists.ThemeStyle.RowsStyle.Font = new Font("Segoe UI", 9F);
-            dgvPlaylists.ThemeStyle.RowsStyle.ForeColor = Color.FromArgb(71, 69, 94);
-            dgvPlaylists.ThemeStyle.RowsStyle.Height = 30;
-            dgvPlaylists.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(231, 229, 255);
-            dgvPlaylists.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(71, 69, 94);
-            dgvPlaylists.CellDoubleClick += dgvPlaylists_CellDoubleClick;
-            dgvPlaylists.SelectionChanged += dgvPlaylists_SelectionChanged;
-            // 
             // btDeleteFromPlaylist
             // 
             btDeleteFromPlaylist.BackColor = Color.FromArgb(15, 15, 15);
             btDeleteFromPlaylist.BorderRadius = 20;
-            btDeleteFromPlaylist.CustomizableEdges = customizableEdges37;
+            btDeleteFromPlaylist.CustomizableEdges = customizableEdges49;
             btDeleteFromPlaylist.DisabledState.BorderColor = Color.DarkGray;
             btDeleteFromPlaylist.DisabledState.CustomBorderColor = Color.DarkGray;
             btDeleteFromPlaylist.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -1099,7 +1196,7 @@
             btDeleteFromPlaylist.HoverState.ForeColor = SystemColors.ScrollBar;
             btDeleteFromPlaylist.Location = new Point(751, 28);
             btDeleteFromPlaylist.Name = "btDeleteFromPlaylist";
-            btDeleteFromPlaylist.ShadowDecoration.CustomizableEdges = customizableEdges38;
+            btDeleteFromPlaylist.ShadowDecoration.CustomizableEdges = customizableEdges50;
             btDeleteFromPlaylist.Size = new Size(301, 50);
             btDeleteFromPlaylist.TabIndex = 12;
             btDeleteFromPlaylist.Text = "Delete from playlist";
@@ -1166,15 +1263,78 @@
             dgvPlaylistsSongs.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(231, 229, 255);
             dgvPlaylistsSongs.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(71, 69, 94);
             // 
+            // dgvPlaylists
+            // 
+            dgvPlaylists.AllowUserToAddRows = false;
+            dgvPlaylists.AllowUserToDeleteRows = false;
+            dgvPlaylists.AllowUserToResizeColumns = false;
+            dgvPlaylists.AllowUserToResizeRows = false;
+            dataGridViewCellStyle19.BackColor = Color.FromArgb(15, 15, 15);
+            dataGridViewCellStyle19.ForeColor = Color.White;
+            dgvPlaylists.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle19;
+            dgvPlaylists.BackgroundColor = Color.FromArgb(15, 15, 15);
+            dataGridViewCellStyle20.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle20.BackColor = Color.FromArgb(100, 88, 255);
+            dataGridViewCellStyle20.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            dataGridViewCellStyle20.ForeColor = Color.White;
+            dataGridViewCellStyle20.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle20.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle20.WrapMode = DataGridViewTriState.True;
+            dgvPlaylists.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle20;
+            dgvPlaylists.ColumnHeadersHeight = 4;
+            dgvPlaylists.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            dgvPlaylists.ColumnHeadersVisible = false;
+            dataGridViewCellStyle21.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle21.BackColor = Color.FromArgb(15, 15, 15);
+            dataGridViewCellStyle21.Font = new Font("Segoe UI", 11F);
+            dataGridViewCellStyle21.ForeColor = Color.White;
+            dataGridViewCellStyle21.SelectionBackColor = Color.FromArgb(231, 229, 255);
+            dataGridViewCellStyle21.SelectionForeColor = Color.FromArgb(71, 69, 94);
+            dataGridViewCellStyle21.WrapMode = DataGridViewTriState.False;
+            dgvPlaylists.DefaultCellStyle = dataGridViewCellStyle21;
+            dgvPlaylists.GridColor = Color.FromArgb(231, 229, 255);
+            dgvPlaylists.Location = new Point(16, 109);
+            dgvPlaylists.MultiSelect = false;
+            dgvPlaylists.Name = "dgvPlaylists";
+            dgvPlaylists.ReadOnly = true;
+            dgvPlaylists.RowHeadersVisible = false;
+            dgvPlaylists.RowHeadersWidth = 51;
+            dgvPlaylists.RowTemplate.Height = 30;
+            dgvPlaylists.Size = new Size(1036, 580);
+            dgvPlaylists.TabIndex = 7;
+            dgvPlaylists.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White;
+            dgvPlaylists.ThemeStyle.AlternatingRowsStyle.Font = null;
+            dgvPlaylists.ThemeStyle.AlternatingRowsStyle.ForeColor = Color.Empty;
+            dgvPlaylists.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = Color.Empty;
+            dgvPlaylists.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = Color.Empty;
+            dgvPlaylists.ThemeStyle.BackColor = Color.FromArgb(15, 15, 15);
+            dgvPlaylists.ThemeStyle.GridColor = Color.FromArgb(231, 229, 255);
+            dgvPlaylists.ThemeStyle.HeaderStyle.BackColor = Color.FromArgb(100, 88, 255);
+            dgvPlaylists.ThemeStyle.HeaderStyle.BorderStyle = DataGridViewHeaderBorderStyle.None;
+            dgvPlaylists.ThemeStyle.HeaderStyle.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            dgvPlaylists.ThemeStyle.HeaderStyle.ForeColor = Color.White;
+            dgvPlaylists.ThemeStyle.HeaderStyle.HeaightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            dgvPlaylists.ThemeStyle.HeaderStyle.Height = 4;
+            dgvPlaylists.ThemeStyle.ReadOnly = true;
+            dgvPlaylists.ThemeStyle.RowsStyle.BackColor = Color.White;
+            dgvPlaylists.ThemeStyle.RowsStyle.BorderStyle = DataGridViewCellBorderStyle.SingleHorizontal;
+            dgvPlaylists.ThemeStyle.RowsStyle.Font = new Font("Segoe UI", 9F);
+            dgvPlaylists.ThemeStyle.RowsStyle.ForeColor = Color.FromArgb(71, 69, 94);
+            dgvPlaylists.ThemeStyle.RowsStyle.Height = 30;
+            dgvPlaylists.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(231, 229, 255);
+            dgvPlaylists.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(71, 69, 94);
+            dgvPlaylists.CellDoubleClick += dgvPlaylists_CellDoubleClick;
+            dgvPlaylists.SelectionChanged += dgvPlaylists_SelectionChanged;
+            // 
             // guna2PictureBox2
             // 
             guna2PictureBox2.BorderRadius = 20;
-            guna2PictureBox2.CustomizableEdges = customizableEdges41;
+            guna2PictureBox2.CustomizableEdges = customizableEdges53;
             guna2PictureBox2.Image = (Image)resources.GetObject("guna2PictureBox2.Image");
             guna2PictureBox2.ImageRotate = 0F;
             guna2PictureBox2.Location = new Point(8, 8);
             guna2PictureBox2.Name = "guna2PictureBox2";
-            guna2PictureBox2.ShadowDecoration.CustomizableEdges = customizableEdges42;
+            guna2PictureBox2.ShadowDecoration.CustomizableEdges = customizableEdges54;
             guna2PictureBox2.Size = new Size(82, 84);
             guna2PictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
             guna2PictureBox2.TabIndex = 3;
@@ -1186,11 +1346,11 @@
             pNewSongs.Controls.Add(dgvNewSongs);
             pNewSongs.Controls.Add(label2);
             pNewSongs.Controls.Add(guna2PictureBox2);
-            pNewSongs.CustomizableEdges = customizableEdges43;
+            pNewSongs.CustomizableEdges = customizableEdges55;
             pNewSongs.FillColor = Color.FromArgb(15, 15, 15);
             pNewSongs.Location = new Point(263, 389);
             pNewSongs.Name = "pNewSongs";
-            pNewSongs.ShadowDecoration.CustomizableEdges = customizableEdges44;
+            pNewSongs.ShadowDecoration.CustomizableEdges = customizableEdges56;
             pNewSongs.Size = new Size(1063, 352);
             pNewSongs.TabIndex = 4;
             // 
@@ -1275,10 +1435,10 @@
             // btClose
             // 
             btClose.BorderRadius = 15;
-            customizableEdges47.BottomLeft = false;
-            customizableEdges47.BottomRight = false;
-            customizableEdges47.TopLeft = false;
-            btClose.CustomizableEdges = customizableEdges47;
+            customizableEdges59.BottomLeft = false;
+            customizableEdges59.BottomRight = false;
+            customizableEdges59.TopLeft = false;
+            btClose.CustomizableEdges = customizableEdges59;
             btClose.DisabledState.BorderColor = Color.DarkGray;
             btClose.DisabledState.CustomBorderColor = Color.DarkGray;
             btClose.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -1289,7 +1449,7 @@
             btClose.HoverState.FillColor = Color.Red;
             btClose.Location = new Point(1277, 0);
             btClose.Name = "btClose";
-            btClose.ShadowDecoration.CustomizableEdges = customizableEdges48;
+            btClose.ShadowDecoration.CustomizableEdges = customizableEdges60;
             btClose.Size = new Size(63, 33);
             btClose.TabIndex = 5;
             btClose.Text = "x";
@@ -1299,10 +1459,10 @@
             // 
             btMinimize.BorderColor = Color.Transparent;
             btMinimize.BorderRadius = 1;
-            customizableEdges45.BottomLeft = false;
-            customizableEdges45.BottomRight = false;
-            customizableEdges45.TopLeft = false;
-            btMinimize.CustomizableEdges = customizableEdges45;
+            customizableEdges57.BottomLeft = false;
+            customizableEdges57.BottomRight = false;
+            customizableEdges57.TopLeft = false;
+            btMinimize.CustomizableEdges = customizableEdges57;
             btMinimize.DisabledState.BorderColor = Color.DarkGray;
             btMinimize.DisabledState.CustomBorderColor = Color.DarkGray;
             btMinimize.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -1312,7 +1472,7 @@
             btMinimize.ForeColor = Color.White;
             btMinimize.Location = new Point(1210, 0);
             btMinimize.Name = "btMinimize";
-            btMinimize.ShadowDecoration.CustomizableEdges = customizableEdges46;
+            btMinimize.ShadowDecoration.CustomizableEdges = customizableEdges58;
             btMinimize.Size = new Size(63, 33);
             btMinimize.TabIndex = 6;
             btMinimize.Text = "-";
@@ -1335,11 +1495,11 @@
             pControlPanel.Controls.Add(dgvControlPanel);
             pControlPanel.Controls.Add(label4);
             pControlPanel.Controls.Add(guna2PictureBox4);
-            pControlPanel.CustomizableEdges = customizableEdges81;
+            pControlPanel.CustomizableEdges = customizableEdges93;
             pControlPanel.FillColor = Color.FromArgb(15, 15, 15);
             pControlPanel.Location = new Point(262, 40);
             pControlPanel.Name = "pControlPanel";
-            pControlPanel.ShadowDecoration.CustomizableEdges = customizableEdges82;
+            pControlPanel.ShadowDecoration.CustomizableEdges = customizableEdges94;
             pControlPanel.Size = new Size(1064, 693);
             pControlPanel.TabIndex = 11;
             pControlPanel.Visible = false;
@@ -1347,7 +1507,7 @@
             // tbx6
             // 
             tbx6.BorderRadius = 20;
-            tbx6.CustomizableEdges = customizableEdges57;
+            tbx6.CustomizableEdges = customizableEdges69;
             tbx6.DefaultText = "";
             tbx6.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             tbx6.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -1362,7 +1522,7 @@
             tbx6.PasswordChar = '\0';
             tbx6.PlaceholderText = "Numar de ascultari:";
             tbx6.SelectedText = "";
-            tbx6.ShadowDecoration.CustomizableEdges = customizableEdges58;
+            tbx6.ShadowDecoration.CustomizableEdges = customizableEdges70;
             tbx6.Size = new Size(326, 54);
             tbx6.TabIndex = 23;
             tbx6.TextChanged += tbxControls_TextChanged;
@@ -1370,7 +1530,7 @@
             // tbx5
             // 
             tbx5.BorderRadius = 20;
-            tbx5.CustomizableEdges = customizableEdges59;
+            tbx5.CustomizableEdges = customizableEdges71;
             tbx5.DefaultText = "";
             tbx5.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             tbx5.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -1385,7 +1545,7 @@
             tbx5.PasswordChar = '\0';
             tbx5.PlaceholderText = "An:";
             tbx5.SelectedText = "";
-            tbx5.ShadowDecoration.CustomizableEdges = customizableEdges60;
+            tbx5.ShadowDecoration.CustomizableEdges = customizableEdges72;
             tbx5.Size = new Size(326, 54);
             tbx5.TabIndex = 22;
             tbx5.TextChanged += tbxControls_TextChanged;
@@ -1393,7 +1553,7 @@
             // tbx4
             // 
             tbx4.BorderRadius = 20;
-            tbx4.CustomizableEdges = customizableEdges61;
+            tbx4.CustomizableEdges = customizableEdges73;
             tbx4.DefaultText = "";
             tbx4.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             tbx4.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -1408,7 +1568,7 @@
             tbx4.PasswordChar = '\0';
             tbx4.PlaceholderText = "Gen:";
             tbx4.SelectedText = "";
-            tbx4.ShadowDecoration.CustomizableEdges = customizableEdges62;
+            tbx4.ShadowDecoration.CustomizableEdges = customizableEdges74;
             tbx4.Size = new Size(326, 54);
             tbx4.TabIndex = 21;
             tbx4.TextChanged += tbxControls_TextChanged;
@@ -1416,7 +1576,7 @@
             // tbx3
             // 
             tbx3.BorderRadius = 20;
-            tbx3.CustomizableEdges = customizableEdges63;
+            tbx3.CustomizableEdges = customizableEdges75;
             tbx3.DefaultText = "";
             tbx3.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             tbx3.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -1431,7 +1591,7 @@
             tbx3.PasswordChar = '\0';
             tbx3.PlaceholderText = "Album:";
             tbx3.SelectedText = "";
-            tbx3.ShadowDecoration.CustomizableEdges = customizableEdges64;
+            tbx3.ShadowDecoration.CustomizableEdges = customizableEdges76;
             tbx3.Size = new Size(326, 54);
             tbx3.TabIndex = 20;
             tbx3.TextChanged += tbxControls_TextChanged;
@@ -1439,7 +1599,7 @@
             // tbx2
             // 
             tbx2.BorderRadius = 20;
-            tbx2.CustomizableEdges = customizableEdges65;
+            tbx2.CustomizableEdges = customizableEdges77;
             tbx2.DefaultText = "";
             tbx2.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             tbx2.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -1454,7 +1614,7 @@
             tbx2.PasswordChar = '\0';
             tbx2.PlaceholderText = "Grupa:";
             tbx2.SelectedText = "";
-            tbx2.ShadowDecoration.CustomizableEdges = customizableEdges66;
+            tbx2.ShadowDecoration.CustomizableEdges = customizableEdges78;
             tbx2.Size = new Size(326, 54);
             tbx2.TabIndex = 19;
             tbx2.TextChanged += tbxControls_TextChanged;
@@ -1462,7 +1622,7 @@
             // tbx1
             // 
             tbx1.BorderRadius = 20;
-            tbx1.CustomizableEdges = customizableEdges67;
+            tbx1.CustomizableEdges = customizableEdges79;
             tbx1.DefaultText = "";
             tbx1.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             tbx1.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -1477,7 +1637,7 @@
             tbx1.PasswordChar = '\0';
             tbx1.PlaceholderText = "Denumirea:";
             tbx1.SelectedText = "";
-            tbx1.ShadowDecoration.CustomizableEdges = customizableEdges68;
+            tbx1.ShadowDecoration.CustomizableEdges = customizableEdges80;
             tbx1.Size = new Size(326, 54);
             tbx1.TabIndex = 13;
             tbx1.TextChanged += tbxControls_TextChanged;
@@ -1486,7 +1646,7 @@
             // 
             btModify.BackColor = Color.FromArgb(15, 15, 15);
             btModify.BorderRadius = 20;
-            btModify.CustomizableEdges = customizableEdges69;
+            btModify.CustomizableEdges = customizableEdges81;
             btModify.DisabledState.BorderColor = Color.FromArgb(15, 15, 15);
             btModify.DisabledState.CustomBorderColor = Color.FromArgb(15, 15, 15);
             btModify.DisabledState.FillColor = Color.FromArgb(15, 15, 15);
@@ -1498,7 +1658,7 @@
             btModify.HoverState.ForeColor = SystemColors.ScrollBar;
             btModify.Location = new Point(794, 176);
             btModify.Name = "btModify";
-            btModify.ShadowDecoration.CustomizableEdges = customizableEdges70;
+            btModify.ShadowDecoration.CustomizableEdges = customizableEdges82;
             btModify.Size = new Size(251, 56);
             btModify.TabIndex = 12;
             btModify.Text = "Modify";
@@ -1508,7 +1668,7 @@
             // 
             btAdd.BackColor = Color.FromArgb(15, 15, 15);
             btAdd.BorderRadius = 20;
-            btAdd.CustomizableEdges = customizableEdges71;
+            btAdd.CustomizableEdges = customizableEdges83;
             btAdd.DisabledState.BorderColor = Color.FromArgb(15, 15, 15);
             btAdd.DisabledState.CustomBorderColor = Color.FromArgb(15, 15, 15);
             btAdd.DisabledState.FillColor = Color.FromArgb(15, 15, 15);
@@ -1520,7 +1680,7 @@
             btAdd.HoverState.ForeColor = SystemColors.ScrollBar;
             btAdd.Location = new Point(794, 100);
             btAdd.Name = "btAdd";
-            btAdd.ShadowDecoration.CustomizableEdges = customizableEdges72;
+            btAdd.ShadowDecoration.CustomizableEdges = customizableEdges84;
             btAdd.Size = new Size(251, 56);
             btAdd.TabIndex = 11;
             btAdd.Text = "Add";
@@ -1530,7 +1690,7 @@
             // 
             btDelete.BackColor = Color.FromArgb(15, 15, 15);
             btDelete.BorderRadius = 20;
-            btDelete.CustomizableEdges = customizableEdges73;
+            btDelete.CustomizableEdges = customizableEdges85;
             btDelete.DisabledState.BorderColor = Color.FromArgb(15, 15, 15);
             btDelete.DisabledState.CustomBorderColor = Color.FromArgb(15, 15, 15);
             btDelete.DisabledState.FillColor = Color.FromArgb(15, 15, 15);
@@ -1542,7 +1702,7 @@
             btDelete.HoverState.ForeColor = SystemColors.ScrollBar;
             btDelete.Location = new Point(794, 255);
             btDelete.Name = "btDelete";
-            btDelete.ShadowDecoration.CustomizableEdges = customizableEdges74;
+            btDelete.ShadowDecoration.CustomizableEdges = customizableEdges86;
             btDelete.Size = new Size(251, 56);
             btDelete.TabIndex = 10;
             btDelete.Text = "Delete";
@@ -1552,7 +1712,7 @@
             // 
             btControlsUsers.BackColor = Color.FromArgb(15, 15, 15);
             btControlsUsers.BorderRadius = 20;
-            btControlsUsers.CustomizableEdges = customizableEdges75;
+            btControlsUsers.CustomizableEdges = customizableEdges87;
             btControlsUsers.DisabledState.BorderColor = Color.FromArgb(15, 15, 15);
             btControlsUsers.DisabledState.CustomBorderColor = Color.FromArgb(15, 15, 15);
             btControlsUsers.DisabledState.FillColor = Color.FromArgb(15, 15, 15);
@@ -1564,7 +1724,7 @@
             btControlsUsers.HoverState.ForeColor = SystemColors.ScrollBar;
             btControlsUsers.Location = new Point(794, 22);
             btControlsUsers.Name = "btControlsUsers";
-            btControlsUsers.ShadowDecoration.CustomizableEdges = customizableEdges76;
+            btControlsUsers.ShadowDecoration.CustomizableEdges = customizableEdges88;
             btControlsUsers.Size = new Size(251, 56);
             btControlsUsers.TabIndex = 9;
             btControlsUsers.Text = "User";
@@ -1574,7 +1734,7 @@
             // 
             btControlsMusic.BackColor = Color.FromArgb(15, 15, 15);
             btControlsMusic.BorderRadius = 20;
-            btControlsMusic.CustomizableEdges = customizableEdges77;
+            btControlsMusic.CustomizableEdges = customizableEdges89;
             btControlsMusic.DisabledState.BorderColor = Color.FromArgb(15, 15, 15);
             btControlsMusic.DisabledState.CustomBorderColor = Color.FromArgb(15, 15, 15);
             btControlsMusic.DisabledState.FillColor = Color.FromArgb(15, 15, 15);
@@ -1586,7 +1746,7 @@
             btControlsMusic.HoverState.ForeColor = SystemColors.ScrollBar;
             btControlsMusic.Location = new Point(499, 22);
             btControlsMusic.Name = "btControlsMusic";
-            btControlsMusic.ShadowDecoration.CustomizableEdges = customizableEdges78;
+            btControlsMusic.ShadowDecoration.CustomizableEdges = customizableEdges90;
             btControlsMusic.Size = new Size(251, 56);
             btControlsMusic.TabIndex = 8;
             btControlsMusic.Text = "Music";
@@ -1652,7 +1812,6 @@
             dgvControlPanel.ThemeStyle.RowsStyle.Height = 30;
             dgvControlPanel.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(231, 229, 255);
             dgvControlPanel.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(71, 69, 94);
-            dgvControlPanel.CellContentClick += dgvControlPanel_CellContentClick;
             dgvControlPanel.SelectionChanged += dgvControlPanel_SelectionChanged;
             // 
             // label4
@@ -1671,12 +1830,12 @@
             // 
             guna2PictureBox4.BackColor = Color.Transparent;
             guna2PictureBox4.BorderRadius = 20;
-            guna2PictureBox4.CustomizableEdges = customizableEdges79;
+            guna2PictureBox4.CustomizableEdges = customizableEdges91;
             guna2PictureBox4.Image = (Image)resources.GetObject("guna2PictureBox4.Image");
             guna2PictureBox4.ImageRotate = 0F;
-            guna2PictureBox4.Location = new Point(8, 8);
+            guna2PictureBox4.Location = new Point(9, 8);
             guna2PictureBox4.Name = "guna2PictureBox4";
-            guna2PictureBox4.ShadowDecoration.CustomizableEdges = customizableEdges80;
+            guna2PictureBox4.ShadowDecoration.CustomizableEdges = customizableEdges92;
             guna2PictureBox4.Size = new Size(82, 84);
             guna2PictureBox4.SizeMode = PictureBoxSizeMode.Zoom;
             guna2PictureBox4.TabIndex = 3;
@@ -1690,11 +1849,11 @@
             pRaports.Controls.Add(guna2PictureBox5);
             pRaports.Controls.Add(guna2ComboBox2);
             pRaports.Controls.Add(dgvRaports);
-            pRaports.CustomizableEdges = customizableEdges55;
+            pRaports.CustomizableEdges = customizableEdges67;
             pRaports.FillColor = Color.FromArgb(15, 15, 15);
             pRaports.Location = new Point(262, 40);
             pRaports.Name = "pRaports";
-            pRaports.ShadowDecoration.CustomizableEdges = customizableEdges56;
+            pRaports.ShadowDecoration.CustomizableEdges = customizableEdges68;
             pRaports.Size = new Size(1067, 696);
             pRaports.TabIndex = 17;
             pRaports.Visible = false;
@@ -1703,7 +1862,7 @@
             // 
             guna2ComboBox3.BackColor = Color.Transparent;
             guna2ComboBox3.BorderRadius = 15;
-            guna2ComboBox3.CustomizableEdges = customizableEdges49;
+            guna2ComboBox3.CustomizableEdges = customizableEdges61;
             guna2ComboBox3.DrawMode = DrawMode.OwnerDrawFixed;
             guna2ComboBox3.DropDownStyle = ComboBoxStyle.DropDownList;
             guna2ComboBox3.FocusedColor = Color.FromArgb(94, 148, 255);
@@ -1713,10 +1872,10 @@
             guna2ComboBox3.ItemHeight = 30;
             guna2ComboBox3.Location = new Point(457, 32);
             guna2ComboBox3.Name = "guna2ComboBox3";
-            guna2ComboBox3.ShadowDecoration.CustomizableEdges = customizableEdges50;
+            guna2ComboBox3.ShadowDecoration.CustomizableEdges = customizableEdges62;
             guna2ComboBox3.Size = new Size(252, 36);
             guna2ComboBox3.TabIndex = 19;
-            guna2ComboBox3.SelectedIndexChanged += guna2ComboBox3_SelectedIndexChanged;
+            guna2ComboBox3.SelectedIndexChanged += cbRaportGen_SelectedIndexChanged;
             // 
             // label5
             // 
@@ -1734,13 +1893,13 @@
             // 
             guna2PictureBox5.BackColor = Color.Transparent;
             guna2PictureBox5.BorderRadius = 20;
-            guna2PictureBox5.CustomizableEdges = customizableEdges51;
+            guna2PictureBox5.CustomizableEdges = customizableEdges63;
             guna2PictureBox5.Image = (Image)resources.GetObject("guna2PictureBox5.Image");
             guna2PictureBox5.ImageRotate = 0F;
-            guna2PictureBox5.Location = new Point(12, 7);
+            guna2PictureBox5.Location = new Point(13, 8);
             guna2PictureBox5.Name = "guna2PictureBox5";
-            guna2PictureBox5.ShadowDecoration.CustomizableEdges = customizableEdges52;
-            guna2PictureBox5.Size = new Size(82, 84);
+            guna2PictureBox5.ShadowDecoration.CustomizableEdges = customizableEdges64;
+            guna2PictureBox5.Size = new Size(76, 85);
             guna2PictureBox5.SizeMode = PictureBoxSizeMode.Zoom;
             guna2PictureBox5.TabIndex = 17;
             guna2PictureBox5.TabStop = false;
@@ -1749,7 +1908,7 @@
             // 
             guna2ComboBox2.BackColor = Color.Transparent;
             guna2ComboBox2.BorderRadius = 15;
-            guna2ComboBox2.CustomizableEdges = customizableEdges53;
+            guna2ComboBox2.CustomizableEdges = customizableEdges65;
             guna2ComboBox2.DrawMode = DrawMode.OwnerDrawFixed;
             guna2ComboBox2.DropDownStyle = ComboBoxStyle.DropDownList;
             guna2ComboBox2.FocusedColor = Color.FromArgb(94, 148, 255);
@@ -1757,13 +1916,13 @@
             guna2ComboBox2.Font = new Font("Segoe UI", 10F);
             guna2ComboBox2.ForeColor = Color.FromArgb(68, 88, 112);
             guna2ComboBox2.ItemHeight = 30;
-            guna2ComboBox2.Items.AddRange(new object[] { "Gen", "An", "Cele mai ascultate" });
+            guna2ComboBox2.Items.AddRange(new object[] { "Genre", "Year", "Pupulars", "Appearance" });
             guna2ComboBox2.Location = new Point(724, 32);
             guna2ComboBox2.Name = "guna2ComboBox2";
-            guna2ComboBox2.ShadowDecoration.CustomizableEdges = customizableEdges54;
+            guna2ComboBox2.ShadowDecoration.CustomizableEdges = customizableEdges66;
             guna2ComboBox2.Size = new Size(321, 36);
             guna2ComboBox2.TabIndex = 16;
-            guna2ComboBox2.SelectedIndexChanged += guna2ComboBox2_SelectedIndexChanged;
+            guna2ComboBox2.SelectedIndexChanged += cbRaportType_SelectedIndexChanged;
             // 
             // dgvRaports
             // 
@@ -1846,7 +2005,6 @@
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "MainForm";
             Text = "Music";
-            Load += MainForm_Load;
             panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pbLogo).EndInit();
             pMusic.ResumeLayout(false);
@@ -1862,8 +2020,8 @@
             pPlaylists.ResumeLayout(false);
             pPlaylists.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)guna2PictureBox3).EndInit();
-            ((System.ComponentModel.ISupportInitialize)dgvPlaylists).EndInit();
             ((System.ComponentModel.ISupportInitialize)dgvPlaylistsSongs).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dgvPlaylists).EndInit();
             ((System.ComponentModel.ISupportInitialize)guna2PictureBox2).EndInit();
             pNewSongs.ResumeLayout(false);
             pNewSongs.PerformLayout();
@@ -1942,5 +2100,11 @@
         private Guna.UI2.WinForms.Guna2Button btDeletePlaylist;
         private Guna.UI2.WinForms.Guna2Button btModifyPlaylist;
         private Guna.UI2.WinForms.Guna2Button btDeleteFromPlaylist;
+        private Guna.UI2.WinForms.Guna2Button guna2Button2;
+        private Guna.UI2.WinForms.Guna2Button guna2Button6;
+        private Guna.UI2.WinForms.Guna2Button guna2Button5;
+        private Guna.UI2.WinForms.Guna2Button guna2Button4;
+        private Guna.UI2.WinForms.Guna2Button guna2Button3;
+        private Guna.UI2.WinForms.Guna2Button guna2Button7;
     }
 }

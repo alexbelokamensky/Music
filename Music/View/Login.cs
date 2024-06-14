@@ -24,17 +24,16 @@ namespace Music
         {
             InitializeComponent();
         }
-
+        //кнопки для управления состоянием окна
         private void btClose_Click(object sender, EventArgs e)
         {
             Close();
         }
-
         private void btMinimize_Click(object sender, EventArgs e)
         {
             WindowState = FormWindowState.Minimized;
         }
-
+        //вход и регистрация
         public void btLogin_Click(object sender, EventArgs e)
         {
             if (!isRegistration)
@@ -90,16 +89,17 @@ namespace Music
                 }
             }
         }
-
+        //шифровка пароля
         static string HashPassword(string password)
         {
             return BCrypt.Net.BCrypt.HashPassword(password);
         }
+        //расшифровка пароля
         static bool VerifyPassword(string password, string hashedPassword)
         {
             return BCrypt.Net.BCrypt.Verify(password, hashedPassword);
         }
-
+        //переключение на регистрацию
         private void label1_Click(object sender, EventArgs e)
         {
             if (!isRegistration)
